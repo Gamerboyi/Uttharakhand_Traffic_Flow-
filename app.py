@@ -18,32 +18,209 @@ from matplotlib.animation import FuncAnimation
 from algorithms.dijkstra import dijkstra_algorithm
 from algorithms.astar import astar_algorithm
 from algorithms.bellman_ford import bellman_ford_algorithm
+from algorithms.traffic_prediction import get_future_traffic_predictions, get_road_specific_prediction
+from algorithms.weather_impact import WeatherImpact
 
 # Page configuration and simplified CSS
 st.set_page_config(page_title="Smart Traffic Flow Optimizer", page_icon="🚦", layout="wide")
 
-# Simplified CSS
+# Enhanced CSS with modern design elements
 CUSTOM_CSS = """
 <style>
-  .main-header { font-size: 2.5rem; color: #FF6B35; font-weight: 700; }
-  .sub-header { font-size: 1.5rem; color: #424242; font-weight: 500; }
-  .card { padding: 20px; border-radius: 10px; background-color: #f8f9fa; 
-          box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; border-top: 4px solid #FF6B35; }
-  .metric-card { background-color: #fff8f3; border-left: 5px solid #FF6B35; }
-  .info-text { font-size: 0.9rem; color: #616161; }
-  .highlight { background-color: #fff0e6; padding: 2px 5px; border-radius: 3px; font-weight: 500; color: #FF6B35; }
-  .traffic-badge { display: inline-block; padding: 3px 8px; border-radius: 12px; font-weight: bold; font-size: 0.8rem; }
-  .traffic-low { background-color: #DCEDC8; color: #33691E; }
-  .traffic-medium { background-color: #FFE0B2; color: #E65100; }
-  .traffic-high { background-color: #FFCDD2; color: #B71C1C; }
-  .stTabs [data-baseweb="tab-list"] { gap: 8px; }
-  .stTabs [data-baseweb="tab"] { height: 50px; background-color: #f5f5f5; border-radius: 4px 4px 0 0; padding: 10px; }
-  .stTabs [aria-selected="true"] { background-color: #FF6B35 !important; color: white !important; }
-  .stButton>button { background-color: #FF6B35; color: white; border: none; border-radius: 4px; padding: 0.5rem 1rem; }
-  .stButton>button:hover { background-color: #E55A24; }
+    /* Modern Color Scheme */
+    :root {
+        --primary-color: #FF6B35;
+        --secondary-color: #3F51B5;
+        --background-color: #F8F9FA;
+        --text-color: #2C3E50;
+        --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        --success-color: #4CAF50;
+        --warning-color: #FF9800;
+        --danger-color: #F44336;
+    }
+
+    /* Global Styles */
+    .stApp {
+        background-color: var(--background-color);
+        color: var(--text-color);
+    }
+
+    /* Headers */
+    .main-header {
+        font-size: 2.5rem;
+        color: var(--primary-color);
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        background: linear-gradient(135deg, rgba(255,107,53,0.1) 0%, rgba(255,107,53,0) 100%);
+        border-radius: 10px;
+    }
+
+    .sub-header {
+        font-size: 1.5rem;
+        color: var(--text-color);
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+    }
+
+    /* Cards */
+    .card {
+        padding: 1.5rem;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: var(--card-shadow);
+        margin-bottom: 1.5rem;
+        border-top: 4px solid var(--primary-color);
+        transition: transform 0.2s ease-in-out;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+    }
+
+    .metric-card {
+        background-color: white;
+        border-left: 5px solid var(--primary-color);
+        padding: 1rem;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+
+    /* Traffic Badges */
+    .traffic-badge {
+        display: inline-block;
+        padding: 0.3rem 0.8rem;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .traffic-low {
+        background-color: rgba(76, 175, 80, 0.2);
+        color: var(--success-color);
+    }
+
+    .traffic-medium {
+        background-color: rgba(255, 152, 0, 0.2);
+        color: var(--warning-color);
+    }
+
+    .traffic-high {
+        background-color: rgba(244, 67, 54, 0.2);
+        color: var(--danger-color);
+    }
+
+    /* Buttons */
+    .stButton > button {
+        background-color: var(--primary-color);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 0.6rem 1.2rem;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+    .stButton > button:hover {
+        background-color: #E55A24;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    /* Tabs */
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 10px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: var(--card-shadow);
+    }
+
+    .stTabs [data-baseweb="tab"] {
+        height: 50px;
+        background-color: #f5f5f5;
+        border-radius: 8px;
+        padding: 10px 20px;
+        font-weight: 500;
+        transition: all 0.3s ease;
+    }
+
+    .stTabs [aria-selected="true"] {
+        background-color: var(--primary-color) !important;
+        color: white !important;
+    }
+
+    /* Metrics */
+    .metric-container {
+        background: white;
+        padding: 1rem;
+        border-radius: 10px;
+        box-shadow: var(--card-shadow);
+        text-align: center;
+    }
+
+    .metric-value {
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--primary-color);
+    }
+
+    .metric-label {
+        font-size: 0.9rem;
+        color: var(--text-color);
+        margin-top: 0.5rem;
+    }
+
+    /* Loading Animation */
+    .loading-spinner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+
+    /* Tooltips */
+    .tooltip {
+        position: relative;
+        display: inline-block;
+        cursor: help;
+    }
+
+    .tooltip .tooltip-text {
+        visibility: hidden;
+        background-color: rgba(44, 62, 80, 0.9);
+        color: white;
+        text-align: center;
+        padding: 5px 10px;
+        border-radius: 6px;
+        position: absolute;
+        z-index: 1;
+        bottom: 125%;
+        left: 50%;
+        transform: translateX(-50%);
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .tooltip:hover .tooltip-text {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+
+    .fade-in {
+        animation: fadeIn 0.5s ease-in;
+    }
 </style>
 """
-st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
 
 # Data loading and graph creation
 @st.cache_data
@@ -147,16 +324,24 @@ def simulate_traffic_change():
     """Simulate traffic changes over time"""
     data = load_sample_data()
     current_hour = datetime.now().hour
-    is_rush_hour = (8 <= current_hour <= 10) or (17 <= current_hour <= 19)
+    current_day = datetime.now().weekday()
+    
+    # Get future predictions
+    predictions = get_future_traffic_predictions(hours_ahead=3)
+    
+    # Initialize weather impact
+    weather_system = WeatherImpact()
+    current_weather = weather_system.get_current_weather()
     
     for road in data["roads"]:
-        change = random.uniform(-0.15, 0.15)
-        if is_rush_hour:
-            if road["to"] in ["A", "B", "C"] or road["from"] in ["A", "B", "C"]:
-                change += 0.2
-        road["traffic"] = max(0.1, min(0.95, road["traffic"] + change))
+        # Get road-specific prediction
+        base_traffic = predictions[0][1]  # Use the current hour prediction
+        road_traffic = get_road_specific_prediction(road["name"], base_traffic)
+        
+        # Apply weather impact
+        road["traffic"], _ = weather_system.apply_weather_impact(road_traffic)
     
-    return data
+    return data, predictions, current_weather
 
 def create_map_visualization(G, path=None, map_type="folium"):
     """Create map visualization based on type"""
@@ -239,69 +424,163 @@ def create_map_visualization(G, path=None, map_type="folium"):
         
         return fig
 
-def main():
-    # Sidebar
-    st.sidebar.markdown('<p class="main-header">🚦 Smart Traffic</p>', unsafe_allow_html=True)
-    st.sidebar.markdown('<p class="sub-header">Flow Optimizer</p>', unsafe_allow_html=True)
+def create_traffic_prediction_plot(predictions):
+    """Create a traffic prediction plot"""
+    times = [pred[0].strftime("%H:%M") for pred in predictions]
+    traffic_levels = [pred[1] for pred in predictions]
     
-    # Time indicator
-    current_time = datetime.now().strftime("%H:%M")
-    current_hour = datetime.now().hour
-    time_icon = "🌅" if 5 <= current_hour < 12 else "☀️" if 12 <= current_hour < 17 else "🌆" if 17 <= current_hour < 21 else "🌙"
-    time_greeting = "Good Morning" if 5 <= current_hour < 12 else "Good Afternoon" if 12 <= current_hour < 17 else "Good Evening" if 17 <= current_hour < 21 else "Good Night"
+    fig = go.Figure()
+    fig.add_trace(go.Scatter(
+        x=times,
+        y=[t * 100 for t in traffic_levels],
+        mode='lines+markers',
+        name='Predicted Traffic Level',
+        line=dict(color='#FF6B35', width=3),
+        marker=dict(size=10)
+    ))
     
-    st.sidebar.markdown(f"""
-    <div style="background-color: #f8f9fa; padding: 10px; border-radius: 5px; margin-top: 20px;">
-        <div style="font-size: 0.8rem; color: #666;">Current Time</div>
-        <div style="font-size: 1.2rem; font-weight: bold;">{time_icon} {current_time}</div>
-        <div style="font-size: 0.9rem;">{time_greeting}</div>
-    </div>
+    fig.update_layout(
+        title="Traffic Predictions for Next 3 Hours",
+        xaxis_title="Time",
+        yaxis_title="Traffic Level (%)",
+        hovermode='x unified',
+        plot_bgcolor='white',
+        paper_bgcolor='white'
+    )
+    return fig
+
+def create_network_analysis_plot(G):
+    """Create network analysis visualizations"""
+    # Calculate centrality metrics
+    degree_cent = nx.degree_centrality(G)
+    betweenness_cent = nx.betweenness_centrality(G)
+    closeness_cent = nx.closeness_centrality(G)
+    
+    # Create a DataFrame for visualization
+    metrics_df = pd.DataFrame({
+        'Node': list(G.nodes()),
+        'Degree Centrality': list(degree_cent.values()),
+        'Betweenness Centrality': list(betweenness_cent.values()),
+        'Closeness Centrality': list(closeness_cent.values())
+    })
+    
+    return metrics_df
+
+def create_loading_animation():
+    """Create a loading animation component"""
+    return st.markdown("""
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+        </div>
     """, unsafe_allow_html=True)
+
+def create_metric_card(title, value, description=None, icon=None):
+    """Create a styled metric card"""
+    icon_html = f'<span style="font-size: 1.5rem; margin-right: 0.5rem;">{icon}</span>' if icon else ''
+    description_html = f'<div class="metric-label">{description}</div>' if description else ''
     
-    # App tabs
-    tab1, tab2, tab3, tab4 = st.tabs(["🚗 Route Optimizer", "🔄 Traffic Simulation", "📊 Algorithm Comparison", "ℹ️ About"])
+    return f"""
+    <div class="metric-container">
+        {icon_html}
+        <div class="metric-value">{value}</div>
+        <div class="metric-label">{title}</div>
+        {description_html}
+    </div>
+    """
+
+def main():
+    st.markdown(CUSTOM_CSS, unsafe_allow_html=True)
     
-    # Tab 1: Route Optimizer
-    with tab1:
-        st.markdown('<p class="main-header">🚗 Smart Route Optimizer</p>', unsafe_allow_html=True)
+    # Animated header
+    st.markdown(
+        '<div class="fade-in"><h1 class="main-header">🚦 Smart Traffic Flow Optimizer</h1></div>',
+        unsafe_allow_html=True
+    )
+    
+    # Enhanced sidebar
+    with st.sidebar:
+        st.markdown('<p class="main-header">Smart Traffic</p>', unsafe_allow_html=True)
+        st.markdown('<p class="sub-header">Flow Optimizer</p>', unsafe_allow_html=True)
+        
+        # Time indicator with enhanced styling
+        current_time = datetime.now().strftime("%H:%M")
+        current_hour = datetime.now().hour
+        time_icon = "🌅" if 5 <= current_hour < 12 else "☀️" if 12 <= current_hour < 17 else "🌆" if 17 <= current_hour < 21 else "🌙"
+        time_greeting = "Good Morning" if 5 <= current_hour < 12 else "Good Afternoon" if 12 <= current_hour < 17 else "Good Evening" if 17 <= current_hour < 21 else "Good Night"
+        
+        st.markdown(f"""
+        <div class="card">
+            <div style="font-size: 0.8rem; color: #666;">Current Time</div>
+            <div style="font-size: 1.5rem; font-weight: bold; margin: 0.5rem 0;">{time_icon} {current_time}</div>
+            <div style="font-size: 1rem; color: var(--primary-color);">{time_greeting}</div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    # Main tabs with enhanced styling
+    tabs = st.tabs([
+        "🚗 Route Optimizer",
+        "🔄 Traffic Predictions",
+        "📊 Network Analysis",
+        "ℹ️ About"
+    ])
+
+    # Route Optimizer Tab
+    with tabs[0]:
+        st.markdown('<div class="fade-in">', unsafe_allow_html=True)
+        st.markdown('<p class="sub-header">Route Optimizer</p>', unsafe_allow_html=True)
         
         col1, col2 = st.columns(2)
         
         with col1:
             st.markdown('<div class="card">', unsafe_allow_html=True)
             
-            # Load data and create graph
+            # Enhanced form elements
             data = load_sample_data()
-            consider_traffic = st.checkbox("Consider Traffic Conditions", value=True)
+            consider_traffic = st.checkbox(
+                "Consider Traffic Conditions",
+                value=True,
+                help="Enable to include current traffic conditions in route calculation"
+            )
+            
             G = create_graph_from_data(data, consider_traffic)
             
-            # Source and destination selection
+            # Source and destination selection with better UX
             nodes = list(data["intersections"].keys())
             node_names = [f"{data['intersections'][node]['name']} ({node})" for node in nodes]
             
-            source = st.selectbox("Select Starting Point", node_names, index=0)
-            destination = st.selectbox("Select Destination", node_names, index=len(node_names)-1)
-            
-            source_node = source.split("(")[1].split(")")[0].strip()
-            dest_node = destination.split("(")[1].split(")")[0].strip()
-            
-            # Algorithm selection
-            algorithm = st.selectbox(
-                "Select Routing Algorithm",
-                ["Dijkstra's Algorithm", "A* Algorithm", "Bellman-Ford Algorithm"]
+            st.markdown("### 📍 Select Route")
+            source = st.selectbox(
+                "Starting Point",
+                node_names,
+                index=0,
+                help="Choose your starting location"
             )
             
-            if st.button("Calculate Optimal Route"):
-                with st.spinner("Calculating optimal route..."):
+            destination = st.selectbox(
+                "Destination",
+                node_names,
+                index=len(node_names)-1,
+                help="Choose your destination"
+            )
+            
+            # Algorithm selection with tooltips
+            algorithm = st.selectbox(
+                "Routing Algorithm",
+                ["Dijkstra's Algorithm", "A* Algorithm", "Bellman-Ford Algorithm"],
+                help="Choose the algorithm for route calculation"
+            )
+            
+            if st.button("Calculate Optimal Route", help="Click to find the best route"):
+                with st.spinner("🔄 Calculating optimal route..."):
                     start_time = time.time()
                     
                     # Run selected algorithm
                     if algorithm == "Dijkstra's Algorithm":
-                        distance, path = dijkstra_algorithm(G, source_node, dest_node)
+                        distance, path = dijkstra_algorithm(G, source.split("(")[1].split(")")[0].strip(), destination.split("(")[1].split(")")[0].strip())
                     elif algorithm == "A* Algorithm":
-                        distance, path = astar_algorithm(G, source_node, dest_node)
+                        distance, path = astar_algorithm(G, source.split("(")[1].split(")")[0].strip(), destination.split("(")[1].split(")")[0].strip())
                     else:  # Bellman-Ford
-                        distance, path = bellman_ford_algorithm(G, source_node, dest_node)
+                        distance, path = bellman_ford_algorithm(G, source.split("(")[1].split(")")[0].strip(), destination.split("(")[1].split(")")[0].strip())
                     
                     computation_time = time.time() - start_time
                     
@@ -314,210 +593,319 @@ def main():
                         travel_time = (total_distance / avg_speed) * 60  # minutes
                         
                         # Display metrics
-                        st.markdown('<div class="card metric-card">', unsafe_allow_html=True)
-                        st.markdown(f"### Route Summary")
+                        st.markdown('<div class="card metric-card fade-in">', unsafe_allow_html=True)
+                        st.markdown("### 🎯 Route Summary")
                         
-                        path_cities = [f"{G.nodes[node]['name']}" for node in path]
-                        st.markdown(f"**Route:** {' → '.join(path_cities)}")
-                        
+                        # Enhanced metrics display
                         col1a, col2a, col3a = st.columns(3)
                         with col1a:
-                            st.metric("Total Distance", f"{total_distance:.1f} km")
+                            st.markdown(
+                                create_metric_card(
+                                    "Distance",
+                                    f"{total_distance:.1f} km",
+                                    icon="📏"
+                                ),
+                                unsafe_allow_html=True
+                            )
+                        
                         with col2a:
-                            st.markdown(f"**Traffic Level:**<br>{get_traffic_badge(avg_traffic)}", unsafe_allow_html=True)
+                            st.markdown(
+                                create_metric_card(
+                                    "Traffic Level",
+                                    get_traffic_badge(avg_traffic),
+                                    icon="🚦"
+                                ),
+                                unsafe_allow_html=True
+                            )
+                        
                         with col3a:
-                            st.metric("Est. Travel Time", f"{travel_time:.0f} min")
+                            st.markdown(
+                                create_metric_card(
+                                    "Travel Time",
+                                    f"{travel_time:.0f} min",
+                                    icon="⏱️"
+                                ),
+                                unsafe_allow_html=True
+                            )
+                        
+                        # Enhanced turn-by-turn directions
+                        st.markdown("### 🗺️ Turn-by-Turn Directions")
+                        for i, (start, end) in enumerate(zip(path[:-1], path[1:]), 1):
+                            from_city = G.nodes[start]['name']
+                            to_city = G.nodes[end]['name']
+                            road_name = G[start][end]['name']
+                            distance = G[start][end]['distance']
+                            traffic = G[start][end]['traffic']
+                            
+                            st.markdown(f"""
+                            <div class="card" style="padding: 0.8rem; margin-bottom: 0.5rem;">
+                                <div style="display: flex; align-items: center;">
+                                    <div style="font-size: 1.2rem; margin-right: 1rem;">#{i}</div>
+                                    <div>
+                                        <div style="font-weight: 500;">Take <span class='highlight'>{road_name}</span></div>
+                                        <div style="font-size: 0.9rem; color: #666;">
+                                            From {from_city} to {to_city} • {distance} km {get_traffic_badge(traffic)}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            """, unsafe_allow_html=True)
                         
                         st.markdown(f"**Computation Time:** {computation_time*1000:.2f} ms")
                         
-                        # Display directions
-                        st.markdown("### Turn-by-Turn Directions")
-                        for i in range(len(path)-1):
-                            from_city = G.nodes[path[i]]['name']
-                            to_city = G.nodes[path[i+1]]['name']
-                            road_name = G[path[i]][path[i+1]]['name']
-                            distance = G[path[i]][path[i+1]]['distance']
-                            traffic = G[path[i]][path[i+1]]['traffic']
-                            
-                            st.markdown(f"{i+1}. Take <span class='highlight'>{road_name}</span> from {from_city} to {to_city} ({distance} km) {get_traffic_badge(traffic)}", unsafe_allow_html=True)
-                        
                         st.markdown('</div>', unsafe_allow_html=True)
                     else:
-                        st.error(f"No path found between {source_node} and {dest_node}")
+                        st.error("❌ No path found between selected locations")
             
             st.markdown('</div>', unsafe_allow_html=True)
         
         with col2:
             st.markdown('<div class="card">', unsafe_allow_html=True)
-            st.markdown("### NCR Traffic Network")
+            st.markdown("### 🗺️ NCR Traffic Network")
             
-            # Create tabs for different visualizations
-            map_tab1, map_tab2 = st.tabs(["Network Graph", "Interactive Map"])
+            # Enhanced visualization tabs
+            viz_tabs = st.tabs(["🕸️ Network Graph", "🌍 Interactive Map"])
             
-            with map_tab1:
-                # Visualize the graph
+            with viz_tabs[0]:
                 fig = visualize_graph(G, path=path if 'path' in locals() else None)
                 st.pyplot(fig)
             
-            with map_tab2:
-                # Create interactive map
+            with viz_tabs[1]:
                 m = create_map_visualization(G, path=path if 'path' in locals() else None, map_type="folium")
                 folium_static(m)
             
             st.markdown('</div>', unsafe_allow_html=True)
-    
-    # Tab 2: Traffic Simulation
-    with tab2:
-        st.markdown('<p class="main-header">🔄 Traffic Simulation</p>', unsafe_allow_html=True)
-        
-        col1, col2 = st.columns([1, 2])
-        
-        with col1:
-            st.markdown('<div class="card">', unsafe_allow_html=True)
-            st.markdown("### Simulation Controls")
-            
-            if st.button("Simulate Traffic Change"):
-                st.session_state.simulation_data = simulate_traffic_change()
-                st.success("Traffic conditions updated!")
-            
-            if st.button("Reset to Default"):
-                if 'simulation_data' in st.session_state:
-                    del st.session_state.simulation_data
-                st.success("Traffic conditions reset to default!")
-            
-            # Display traffic table
-            st.markdown("### Current Traffic Conditions")
-            data_to_display = st.session_state.get('simulation_data', load_sample_data())
-            
-            # Create a more visual traffic table
-            roads_df = pd.DataFrame(data_to_display["roads"])
-            roads_df['from_city'] = roads_df['from'].apply(lambda x: data_to_display["intersections"][x]["name"])
-            roads_df['to_city'] = roads_df['to'].apply(lambda x: data_to_display["intersections"][x]["name"])
-            roads_df['traffic_html'] = roads_df['traffic'].apply(get_traffic_badge)
-            
-            styled_df = pd.DataFrame({
-                'Road': roads_df['name'],
-                'From': roads_df['from_city'],
-                'To': roads_df['to_city'],
-                'Distance': roads_df['distance'],
-                'Traffic': roads_df['traffic_html']
-            })
-            
-            st.write(styled_df.to_html(escape=False, index=False), unsafe_allow_html=True)
-            st.markdown('</div>', unsafe_allow_html=True)
-        
-        with col2:
-            st.markdown('<div class="card">', unsafe_allow_html=True)
-            st.markdown("### Traffic Visualization")
-            
-            # Create graph from current data
-            current_data = st.session_state.get('simulation_data', load_sample_data())
-            G = create_graph_from_data(current_data, consider_traffic=True)
-            
-            # Visualize
-            fig = visualize_graph(G, title="Current NCR Traffic Conditions")
-            st.pyplot(fig)
-            
-            st.markdown('</div>', unsafe_allow_html=True)
-    
-    # Tab 3: Algorithm Comparison
-    with tab3:
-        st.markdown('<p class="main-header">📊 Algorithm Comparison</p>', unsafe_allow_html=True)
-        
-        st.markdown('<div class="card">', unsafe_allow_html=True)
-        
-        # Load data and create graph
-        data = load_sample_data()
-        G = create_graph_from_data(data, consider_traffic=True)
-        
-        # Source and destination selection
-        nodes = list(data["intersections"].keys())
-        node_names = [f"{data['intersections'][node]['name']} ({node})" for node in nodes]
-        
-        col1, col2 = st.columns(2)
-        with col1:
-            source = st.selectbox("Select Starting Point", node_names, index=0, key="comp_source")
-        with col2:
-            destination = st.selectbox("Select Destination", node_names, index=len(node_names)-1, key="comp_dest")
-        
-        source_node = source.split("(")[1].split(")")[0].strip()
-        dest_node = destination.split("(")[1].split(")")[0].strip()
-        
-        if st.button("Compare Algorithms"):
-            with st.spinner("Running comparison..."):
-                results = []
-                
-                # Run all algorithms and time them
-                start_time = time.time()
-                dijkstra_dist, dijkstra_path = dijkstra_algorithm(G, source_node, dest_node)
-                dijkstra_time = time.time() - start_time
-                
-                start_time = time.time()
-                astar_dist, astar_path = astar_algorithm(G, source_node, dest_node)
-                astar_time = time.time() - start_time
-                
-                start_time = time.time()
-                bellman_ford_dist, bellman_ford_path = bellman_ford_algorithm(G, source_node, dest_node)
-                bellman_ford_time = time.time() - start_time
-                
-                # Format results
-                def format_path(path):
-                    return "No path found" if not path else " → ".join([f"{data['intersections'][node]['name']}" for node in path])
-                
-                # Collect results
-                results.append({
-                    "Algorithm": "Dijkstra's Algorithm",
-                    "Path": format_path(dijkstra_path),
-                    "Distance (km)": f"{dijkstra_dist:.2f}" if dijkstra_path else "N/A",
-                    "Computation Time (ms)": f"{dijkstra_time*1000:.2f}"
-                })
-                
-                results.append({
-                    "Algorithm": "A* Algorithm",
-                    "Path": format_path(astar_path),
-                    "Distance (km)": f"{astar_dist:.2f}" if astar_path else "N/A",
-                    "Computation Time (ms)": f"{astar_time*1000:.2f}"
-                })
-                
-                results.append({
-                    "Algorithm": "Bellman-Ford Algorithm",
-                    "Path": format_path(bellman_ford_path),
-                    "Distance (km)": f"{bellman_ford_dist:.2f}" if bellman_ford_path else "N/A",
-                    "Computation Time (ms)": f"{bellman_ford_time*1000:.2f}"
-                })
-                
-                # Display results
-                st.dataframe(pd.DataFrame(results), use_container_width=True)
-                
-                # Create bar chart
-                fig = px.bar(
-                    pd.DataFrame(results), 
-                    x="Algorithm", 
-                    y=[float(t.split()[0]) for t in pd.DataFrame(results)["Computation Time (ms)"]],
-                    labels={"y": "Computation Time (ms)"},
-                    title="Algorithm Performance Comparison",
-                    color="Algorithm",
-                    color_discrete_sequence=["#FF6B35", "#4CAF50", "#3F51B5"]
-                )
-                
-                st.plotly_chart(fig, use_container_width=True)
         
         st.markdown('</div>', unsafe_allow_html=True)
-    
+
+    # Traffic Predictions Tab
+    with tabs[1]:
+        st.markdown('<div class="fade-in">', unsafe_allow_html=True)
+        st.markdown('<h2 class="sub-header">🌦️ Traffic & Weather Analysis</h2>', unsafe_allow_html=True)
+        
+        # Get current traffic data and predictions
+        data, predictions, weather = simulate_traffic_change()
+        
+        col1, col2 = st.columns([2, 1])
+        
+        with col1:
+            # Enhanced weather card
+            st.markdown(
+                f"""<div class="card">
+                    <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+                        <div style="font-size: 3rem; margin-right: 1rem;">{weather['icon']}</div>
+                        <div>
+                            <h3 style="margin: 0;">Current Weather Conditions</h3>
+                            <p style="margin: 0; color: var(--text-color);">{weather['condition']}</p>
+                        </div>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div class="metric-container">
+                            <div class="metric-label">Impact Level</div>
+                            <div class="metric-value" style="font-size: 1.5rem;">{weather['impact']}x</div>
+                        </div>
+                        <div class="metric-container">
+                            <div class="metric-label">Traffic Effect</div>
+                            <div style="color: var(--text-color); font-size: 0.9rem;">{weather['description']}</div>
+                        </div>
+                    </div>
+                </div>""",
+                unsafe_allow_html=True
+            )
+            
+            # Enhanced prediction plot
+            st.markdown('<div class="card">', unsafe_allow_html=True)
+            st.markdown("### 📈 Traffic Predictions")
+            st.plotly_chart(create_traffic_prediction_plot(predictions), use_container_width=True)
+            st.markdown('</div>', unsafe_allow_html=True)
+        
+        with col2:
+            # Enhanced busy routes display
+            st.markdown("### 🚗 Busiest Routes Now")
+            busy_roads = sorted(data["roads"], key=lambda x: x["traffic"], reverse=True)[:5]
+            
+            for road in busy_roads:
+                traffic_level = road["traffic"]
+                traffic_class = "high" if traffic_level > 0.7 else "medium" if traffic_level > 0.3 else "low"
+                
+                st.markdown(
+                    f"""<div class="card metric-card" style="margin-bottom: 0.8rem;">
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <div>
+                                <h4 style="margin: 0; color: var(--text-color);">{road["name"]}</h4>
+                                <div style="font-size: 0.9rem; color: #666; margin-top: 0.3rem;">
+                                    Traffic Level: {get_traffic_badge(road["traffic"])}
+                                </div>
+                            </div>
+                            <div style="font-size: 1.5rem;">{weather["icon"]}</div>
+                        </div>
+                        <div style="margin-top: 0.8rem; font-size: 0.8rem; color: #666;">
+                            Weather Impact: {weather["description"]}
+                        </div>
+                        </div>""",
+                    unsafe_allow_html=True
+                )
+        
+        # Enhanced road-specific analysis
+        st.markdown('<h3 class="sub-header">🛣️ Road-Specific Analysis</h3>', unsafe_allow_html=True)
+        
+        road_data = []
+        for road in data["roads"]:
+            road_data.append({
+                "Road": road["name"],
+                "From": data["intersections"][road["from"]]["name"],
+                "To": data["intersections"][road["to"]]["name"],
+                "Current Traffic": f"{int(road['traffic'] * 100)}%",
+                "Status": "High" if road["traffic"] > 0.7 else "Medium" if road["traffic"] > 0.3 else "Low",
+                "Weather Impact": f"{weather['icon']}"
+            })
+        
+        df = pd.DataFrame(road_data)
+        
+        st.markdown('<div class="card">', unsafe_allow_html=True)
+        st.dataframe(
+            df,
+            hide_index=True,
+            use_container_width=True,
+            column_config={
+                "Status": st.column_config.TextColumn(
+                    "Status",
+                    help="Traffic status of the road",
+                    width="medium"
+                ),
+                "Current Traffic": st.column_config.ProgressColumn(
+                    "Traffic Level",
+                    help="Current traffic level",
+                    format="%d%%",
+                    min_value=0,
+                    max_value=100,
+                )
+            }
+        )
+        st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+
+    # Network Analysis Tab
+    with tabs[2]:
+        st.markdown('<div class="fade-in">', unsafe_allow_html=True)
+        st.markdown('<h2 class="sub-header">📊 Network Analysis</h2>', unsafe_allow_html=True)
+        
+        # Calculate and display network metrics
+        G = create_graph_from_data(data)
+        metrics_df = create_network_analysis_plot(G)
+        
+        # Enhanced metrics display
+        st.markdown('<div class="card">', unsafe_allow_html=True)
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            avg_path = nx.average_shortest_path_length(G)
+            st.markdown(
+                create_metric_card(
+                    "Average Path Length",
+                    f"{avg_path:.2f} km",
+                    "Average distance between any two points",
+                    "📏"
+                ),
+                unsafe_allow_html=True
+            )
+        
+        with col2:
+            density = nx.density(G)
+            st.markdown(
+                create_metric_card(
+                    "Network Density",
+                    f"{density:.2%}",
+                    "How well-connected the network is",
+                    "🔗"
+                ),
+                unsafe_allow_html=True
+            )
+        
+        with col3:
+            avg_degree = sum(dict(G.degree()).values()) / len(G)
+            st.markdown(
+                create_metric_card(
+                    "Average Connectivity",
+                    f"{avg_degree:.1f}",
+                    "Average number of connections per location",
+                    "🌐"
+                ),
+                unsafe_allow_html=True
+            )
+        st.markdown('</div>', unsafe_allow_html=True)
+        
+        # Enhanced centrality analysis
+        st.markdown("### 🎯 Centrality Analysis")
+        st.markdown('<div class="card">', unsafe_allow_html=True)
+        
+        # Create tabs for different visualizations
+        analysis_tabs = st.tabs(["📊 Metrics", "🗺️ Visual Analysis"])
+        
+        with analysis_tabs[0]:
+            st.dataframe(
+                metrics_df,
+                hide_index=True,
+                use_container_width=True,
+                column_config={
+                    "Degree Centrality": st.column_config.ProgressColumn(
+                        "Degree Centrality",
+                        help="Measure of direct connections",
+                        format="%.2f",
+                        min_value=0,
+                        max_value=1,
+                    ),
+                    "Betweenness Centrality": st.column_config.ProgressColumn(
+                        "Betweenness Centrality",
+                        help="Measure of importance in connecting other nodes",
+                        format="%.2f",
+                        min_value=0,
+                        max_value=1,
+                    ),
+                    "Closeness Centrality": st.column_config.ProgressColumn(
+                        "Closeness Centrality",
+                        help="Measure of how close a node is to all other nodes",
+                        format="%.2f",
+                        min_value=0,
+                        max_value=1,
+                    )
+                }
+            )
+        
+        with analysis_tabs[1]:
+            # Visualize network structure with centrality information
+            st.markdown("### 🕸️ Network Structure")
+            fig = visualize_graph(G)
+            st.pyplot(fig)
+        
+        st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+
     # Tab 4: About
-    with tab4:
-        st.markdown('<p class="main-header">ℹ️ About This Project</p>', unsafe_allow_html=True)
+    with tabs[3]:
+        st.markdown('<p class="main-header">About This Project</p>', unsafe_allow_html=True)
         
         st.markdown('<div class="card">', unsafe_allow_html=True)
         st.markdown("""
         ### Smart Traffic Flow Optimization System for NCR
         
         This application demonstrates the use of graph algorithms for optimizing traffic flow in the National Capital Region (NCR) of India.
-        It implements several key algorithms:
+        It implements several key algorithms and features:
         
-        - **Dijkstra's Algorithm**: A greedy algorithm that finds the shortest path between nodes in a graph
-        - **A* Algorithm**: An extension of Dijkstra's that uses heuristics to speed up the search
-        - **Bellman-Ford Algorithm**: An algorithm that computes shortest paths from a single source vertex to all other vertices
+        - **Route Optimization**:
+          - Dijkstra's Algorithm: A greedy algorithm for shortest paths
+          - A* Algorithm: Uses heuristics to speed up pathfinding
+          - Bellman-Ford Algorithm: Handles negative edge weights
+        
+        - **Traffic Analysis**:
+          - Real-time traffic simulation
+          - Weather impact analysis
+          - Future traffic predictions
+        
+        - **Network Analysis**:
+          - Centrality metrics
+          - Traffic distribution
+          - Network density calculations
         
         ### Technologies Used
         
@@ -528,13 +916,13 @@ def main():
         - **Folium**: Interactive maps
         """)
         st.markdown('</div>', unsafe_allow_html=True)
-    
+
     # Footer
     st.markdown(
         """
         <div style='text-align: center; color: #3D52A0; font-size: 0.9rem; margin-top: 2rem;'>
-            🚦 <strong>Smart Traffic Flow Optimization System</strong><br>
-            Developed with DAA using Python & Streamlit
+            🚦 <strong>Smart Traffic Flow Optimizer</strong><br>
+            Developed with DAA Concepts using Python & Streamlit
         </div>
         """,
         unsafe_allow_html=True
