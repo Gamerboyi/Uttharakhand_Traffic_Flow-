@@ -509,13 +509,13 @@ def main():
         time_greeting = "Good Morning" if 5 <= current_hour < 12 else "Good Afternoon" if 12 <= current_hour < 17 else "Good Evening" if 17 <= current_hour < 21 else "Good Night"
         
         st.markdown(f"""
-        <div class="card">
-            <div style="font-size: 0.8rem; color: #666;">Current Time</div>
-            <div style="font-size: 1.5rem; font-weight: bold; margin: 0.5rem 0;">{time_icon} {current_time}</div>
-            <div style="font-size: 1rem; color: var(--primary-color);">{time_greeting}</div>
-        </div>
-        """, unsafe_allow_html=True)
-
+            <div class="card">
+                <div style="font-size: 0.8rem; color: #666;">Current Time</div>
+                <div style="font-size: 1.5rem; font-weight: bold; margin: 0.5rem 0;">{time_icon} {current_time}</div>
+                <div style="font-size: 1rem; color: var(--primary-color);">{time_greeting}</div>
+            </div>
+            """, unsafe_allow_html=True)
+    
     # Main tabs with enhanced styling
     tabs = st.tabs([
         "🚗 Route Optimizer",
@@ -675,7 +675,7 @@ def main():
                 folium_static(m)
             
             st.markdown('</div>', unsafe_allow_html=True)
-        
+    
         st.markdown('</div>', unsafe_allow_html=True)
 
     # Traffic Predictions Tab
@@ -749,41 +749,112 @@ def main():
         # Enhanced road-specific analysis
         st.markdown('<h3 class="sub-header">🛣️ Road-Specific Analysis</h3>', unsafe_allow_html=True)
         
-        road_data = []
-        for road in data["roads"]:
-            road_data.append({
-                "Road": road["name"],
-                "From": data["intersections"][road["from"]]["name"],
-                "To": data["intersections"][road["to"]]["name"],
-                "Current Traffic": f"{int(road['traffic'] * 100)}%",
-                "Status": "High" if road["traffic"] > 0.7 else "Medium" if road["traffic"] > 0.3 else "Low",
-                "Weather Impact": f"{weather['icon']}"
-            })
+        col1, col2 = st.columns([2, 1])
         
-        df = pd.DataFrame(road_data)
+        with col1:
+            st.markdown('<div class="card">', unsafe_allow_html=True)
+            road_data = []
+            for road in data["roads"]:
+                # Calculate additional metrics
+                base_travel_time = road["distance"] / 60  # base time in hours at 60 km/h
+                actual_speed = 60 * (1 - road["traffic"])  # actual speed considering traffic
+                actual_travel_time = road["distance"] / actual_speed if actual_speed > 0 else float('inf')
+                delay = (actual_travel_time - base_travel_time) * 60  # delay in minutes
+                
+                road_data.append({
+                    "Road Name": road["name"],
+                    "From": data["intersections"][road["from"]]["name"],
+                    "To": data["intersections"][road["to"]]["name"],
+                    "Distance": f"{road['distance']} km",
+                    "Traffic Level": road["traffic"],
+                    "Est. Delay": f"{delay:.1f} min",
+                    "Status": "High" if road["traffic"] > 0.7 else "Medium" if road["traffic"] > 0.3 else "Low",
+                    "Weather Impact": weather["condition"]
+                })
+            
+            df = pd.DataFrame(road_data)
+            
+            # Enhanced dataframe display with custom formatting
+            st.dataframe(
+                df,
+                hide_index=True,
+                use_container_width=True,
+                column_config={
+                    "Road Name": st.column_config.TextColumn(
+                        "Road",
+                        help="Name of the road",
+                        width="medium"
+                    ),
+                    "Traffic Level": st.column_config.ProgressColumn(
+                        "Traffic",
+                        help="Current traffic level",
+                        format="%.0f%%",
+                        min_value=0,
+                        max_value=100,
+                        width="small"
+                    ),
+                    "Status": st.column_config.TextColumn(
+                        "Status",
+                        help="Traffic status of the road",
+                        width="small"
+                    ),
+                    "Est. Delay": st.column_config.TextColumn(
+                        "Delay",
+                        help="Estimated delay due to traffic",
+                        width="small"
+                    )
+                }
+            )
+            st.markdown('</div>', unsafe_allow_html=True)
         
-        st.markdown('<div class="card">', unsafe_allow_html=True)
-        st.dataframe(
-            df,
-            hide_index=True,
-            use_container_width=True,
-            column_config={
-                "Status": st.column_config.TextColumn(
-                    "Status",
-                    help="Traffic status of the road",
-                    width="medium"
-                ),
-                "Current Traffic": st.column_config.ProgressColumn(
-                    "Traffic Level",
-                    help="Current traffic level",
-                    format="%d%%",
-                    min_value=0,
-                    max_value=100,
-                )
-            }
-        )
-        st.markdown('</div>', unsafe_allow_html=True)
-        st.markdown('</div>', unsafe_allow_html=True)
+        with col2:
+            st.markdown('<div class="card">', unsafe_allow_html=True)
+            st.markdown("### 📊 Traffic Distribution")
+            
+            # Calculate traffic distribution
+            traffic_levels = {"Low": 0, "Medium": 0, "High": 0}
+            for road in data["roads"]:
+                traffic_percentage = road["traffic"] * 100
+                if traffic_percentage > 70:  # Changed from 0.7 to 70
+                    traffic_levels["High"] += 1
+                elif traffic_percentage > 30:  # Changed from 0.3 to 30
+                    traffic_levels["Medium"] += 1
+                else:
+                    traffic_levels["Low"] += 1
+            
+            # Create pie chart using plotly
+            fig = go.Figure(data=[go.Pie(
+                labels=list(traffic_levels.keys()),
+                values=list(traffic_levels.values()),
+                hole=.3,
+                marker=dict(colors=['#4CAF50', '#FF9800', '#F44336'])
+            )])
+            
+            fig.update_layout(
+                title="Traffic Distribution",
+                showlegend=True,
+                margin=dict(t=30, l=0, r=0, b=0),
+                height=300
+            )
+            
+            st.plotly_chart(fig, use_container_width=True)
+            
+            # Add summary statistics with more detailed information
+            total_roads = len(data["roads"])
+            st.markdown(f"""
+                <div style='text-align: center; margin-top: 1rem;'>
+                    <div style='font-size: 0.9rem; color: #666;'>Network Status</div>
+                    <div style='font-size: 1.2rem; font-weight: bold; margin: 0.5rem 0;'>
+                        {(traffic_levels['Low'] / total_roads * 100):.0f}% Clear Roads
+                    </div>
+                    <div style='font-size: 0.9rem; color: #666;'>
+                        {traffic_levels['High']} roads with high traffic<br>
+                        {traffic_levels['Medium']} roads with medium traffic<br>
+                        {traffic_levels['Low']} roads with low traffic
+                    </div>
+                </div>
+            """, unsafe_allow_html=True)
+            st.markdown('</div>', unsafe_allow_html=True)
 
     # Network Analysis Tab
     with tabs[2]:
@@ -880,7 +951,7 @@ def main():
         
         st.markdown('</div>', unsafe_allow_html=True)
         st.markdown('</div>', unsafe_allow_html=True)
-
+    
     # Tab 4: About
     with tabs[3]:
         st.markdown('<p class="main-header">About This Project</p>', unsafe_allow_html=True)
@@ -916,7 +987,7 @@ def main():
         - **Folium**: Interactive maps
         """)
         st.markdown('</div>', unsafe_allow_html=True)
-
+    
     # Footer
     st.markdown(
         """
