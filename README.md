@@ -269,8 +269,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 For support or queries, please contact:
-- Email: your.email@example.com
-- GitHub: 
+- Email: vidishofficial@gmail.com
+- GitHub: Vidish-Bijalwan
 
 ---
 
