@@ -489,9 +489,8 @@ def load_sample_data():
         with open('data/uttarakhand_realistic_data.json', 'r') as f:
             return json.load(f)
     except FileNotFoundError:
-        # Fallback to old data if realistic data not found
-        with open('data/uttarakhand_graph.json', 'r') as f:
-            return json.load(f)
+        st.error("Required data file not found: data/uttarakhand_realistic_data.json. Please ensure this file exists in the data/ directory.")
+        st.stop()
 
 def create_graph_from_data(data, consider_traffic=True):
     """Create a NetworkX graph from the data"""
