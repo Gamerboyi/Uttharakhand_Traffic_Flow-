@@ -960,19 +960,18 @@ def login_page():
     st.markdown('<h1 class="main-header" style="margin-bottom: 0.5rem;">Login to Traffic Optimizer</h1>', unsafe_allow_html=True)
     st.markdown('<div class="modern-card" style="max-width: 350px; margin: 2rem auto;">', unsafe_allow_html=True)
     username = st.text_input("Username", key="login_username")
-    password = st.text_input("Password", type="password", key="login_password")
     login_btn = st.button("🔓 Login", use_container_width=True)
     if 'login_error' not in st.session_state:
         st.session_state.login_error = False
     if login_btn:
-        if username == 'user' and password == 'pass':
+        if username.strip() != '':
             st.session_state.logged_in = True
             st.session_state.login_error = False
             st.rerun()
         else:
             st.session_state.login_error = True
     if st.session_state.login_error:
-        st.error("Invalid username or password. Please try again.")
+        st.error("Please enter a username to login.")
     st.markdown('</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
