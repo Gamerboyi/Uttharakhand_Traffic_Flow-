@@ -1,0 +1,6914 @@
+{
+  "intersections": {
+    "DEH": {
+      "pos": [
+        30.3165,
+        78.0322
+      ],
+      "name": "Dehradun",
+      "elevation": 640,
+      "division": "Garhwal",
+      "type": "capital",
+      "population": 1200000
+    },
+    "HAR": {
+      "pos": [
+        29.9457,
+        78.1642
+      ],
+      "name": "Haridwar",
+      "elevation": 314,
+      "division": "Garhwal",
+      "type": "pilgrimage",
+      "population": 310000
+    },
+    "RIS": {
+      "pos": [
+        30.0869,
+        78.2676
+      ],
+      "name": "Rishikesh",
+      "elevation": 372,
+      "division": "Garhwal",
+      "type": "pilgrimage",
+      "population": 70000
+    },
+    "MUS": {
+      "pos": [
+        30.455,
+        78.9738
+      ],
+      "name": "Mussoorie",
+      "elevation": 2005,
+      "division": "Garhwal",
+      "type": "tourist",
+      "population": 34000
+    },
+    "TEH": {
+      "pos": [
+        30.3907,
+        79.3237
+      ],
+      "name": "Tehri",
+      "elevation": 1750,
+      "division": "Garhwal",
+      "type": "town",
+      "population": 42000
+    },
+    "UTK": {
+      "pos": [
+        30.4982,
+        79.6544
+      ],
+      "name": "Uttarkashi",
+      "elevation": 1158,
+      "division": "Garhwal",
+      "type": "pilgrimage",
+      "population": 17000
+    },
+    "GPC": {
+      "pos": [
+        30.7268,
+        79.4818
+      ],
+      "name": "Gangotri",
+      "elevation": 3100,
+      "division": "Garhwal",
+      "type": "char_dham",
+      "population": 800
+    },
+    "KDR": {
+      "pos": [
+        30.7346,
+        79.0668
+      ],
+      "name": "Kedarnath",
+      "elevation": 3553,
+      "division": "Garhwal",
+      "type": "char_dham",
+      "population": 500
+    },
+    "BDR": {
+      "pos": [
+        30.7433,
+        79.4937
+      ],
+      "name": "Badrinath",
+      "elevation": 3300,
+      "division": "Garhwal",
+      "type": "char_dham",
+      "population": 900
+    },
+    "YMN": {
+      "pos": [
+        31.0145,
+        78.9469
+      ],
+      "name": "Yamunotri",
+      "elevation": 3293,
+      "division": "Garhwal",
+      "type": "char_dham",
+      "population": 600
+    },
+    "PAU": {
+      "pos": [
+        29.9344,
+        79.1145
+      ],
+      "name": "Pauri",
+      "elevation": 1814,
+      "division": "Garhwal",
+      "type": "town",
+      "population": 25000
+    },
+    "SRN": {
+      "pos": [
+        30.188,
+        78.786
+      ],
+      "name": "Srinagar",
+      "elevation": 560,
+      "division": "Garhwal",
+      "type": "town",
+      "population": 37000
+    },
+    "KPT": {
+      "pos": [
+        29.8543,
+        79.2089
+      ],
+      "name": "Kotdwar",
+      "elevation": 356,
+      "division": "Garhwal",
+      "type": "town",
+      "population": 175000
+    },
+    "ALM": {
+      "pos": [
+        29.5892,
+        79.6502
+      ],
+      "name": "Almora",
+      "elevation": 1642,
+      "division": "Kumaon",
+      "type": "town",
+      "population": 35000
+    },
+    "NTL": {
+      "pos": [
+        29.3803,
+        79.4636
+      ],
+      "name": "Nainital",
+      "elevation": 2084,
+      "division": "Kumaon",
+      "type": "tourist",
+      "population": 42000
+    },
+    "RNK": {
+      "pos": [
+        29.3919,
+        79.1248
+      ],
+      "name": "Ranikhet",
+      "elevation": 1869,
+      "division": "Kumaon",
+      "type": "tourist",
+      "population": 19000
+    },
+    "KSN": {
+      "pos": [
+        29.8476,
+        79.8646
+      ],
+      "name": "Kausani",
+      "elevation": 1890,
+      "division": "Kumaon",
+      "type": "tourist",
+      "population": 3000
+    },
+    "BGR": {
+      "pos": [
+        29.327,
+        79.5947
+      ],
+      "name": "Bhimtal",
+      "elevation": 1370,
+      "division": "Kumaon",
+      "type": "tourist",
+      "population": 8000
+    },
+    "PIT": {
+      "pos": [
+        29.5833,
+        80.2181
+      ],
+      "name": "Pithoragarh",
+      "elevation": 1514,
+      "division": "Kumaon",
+      "type": "town",
+      "population": 56000
+    },
+    "HDW": {
+      "pos": [
+        29.2183,
+        79.513
+      ],
+      "name": "Haldwani",
+      "elevation": 424,
+      "division": "Kumaon",
+      "type": "city",
+      "population": 340000
+    },
+    "RUD": {
+      "pos": [
+        29.3884,
+        79.0221
+      ],
+      "name": "Rudrapur",
+      "elevation": 225,
+      "division": "Kumaon",
+      "type": "city",
+      "population": 154000
+    },
+    "KIC": {
+      "pos": [
+        28.8674,
+        79.8195
+      ],
+      "name": "Kichha",
+      "elevation": 235,
+      "division": "Kumaon",
+      "type": "town",
+      "population": 45000
+    },
+    "CMP": {
+      "pos": [
+        29.3263,
+        79.8547
+      ],
+      "name": "Champawat",
+      "elevation": 1615,
+      "division": "Kumaon",
+      "type": "town",
+      "population": 4800
+    },
+    "BNS": {
+      "pos": [
+        30.0451,
+        79.8296
+      ],
+      "name": "Bageshwar",
+      "elevation": 975,
+      "division": "Kumaon",
+      "type": "town",
+      "population": 11000
+    },
+    "RTH": {
+      "pos": [
+        29.4892,
+        79.3237
+      ],
+      "name": "Ramnagar",
+      "elevation": 345,
+      "division": "Kumaon",
+      "type": "town",
+      "population": 54000
+    },
+    "V000": {
+      "pos": [
+        29.6318,
+        80.0893
+      ],
+      "name": "Maletha",
+      "elevation": 3265,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 4834
+    },
+    "V001": {
+      "pos": [
+        29.5129,
+        78.6728
+      ],
+      "name": "Saur",
+      "elevation": 906,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3845
+    },
+    "V002": {
+      "pos": [
+        30.8314,
+        79.5005
+      ],
+      "name": "Kirtinagar",
+      "elevation": 3631,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 3435
+    },
+    "V003": {
+      "pos": [
+        30.3262,
+        79.4483
+      ],
+      "name": "Ghansali",
+      "elevation": 2830,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3800
+    },
+    "V004": {
+      "pos": [
+        29.5418,
+        78.7569
+      ],
+      "name": "Jakholi",
+      "elevation": 1259,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3446
+    },
+    "V005": {
+      "pos": [
+        29.7552,
+        79.9028
+      ],
+      "name": "Guptkashi",
+      "elevation": 3850,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 4620
+    },
+    "V006": {
+      "pos": [
+        30.9073,
+        78.5457
+      ],
+      "name": "Sonprayag",
+      "elevation": 2412,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 4618
+    },
+    "V007": {
+      "pos": [
+        30.4634,
+        78.5285
+      ],
+      "name": "Gaurikund",
+      "elevation": 471,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 1392
+    },
+    "V008": {
+      "pos": [
+        29.8404,
+        78.1057
+      ],
+      "name": "Phata",
+      "elevation": 3104,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V009": {
+      "pos": [
+        28.998,
+        78.7743
+      ],
+      "name": "Sitapur",
+      "elevation": 876,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 2535
+    },
+    "V010": {
+      "pos": [
+        29.31,
+        79.6911
+      ],
+      "name": "Kalimath",
+      "elevation": 3245,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V011": {
+      "pos": [
+        30.0175,
+        78.3576
+      ],
+      "name": "Chopta",
+      "elevation": 1239,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V012": {
+      "pos": [
+        29.6507,
+        79.9802
+      ],
+      "name": "Tungnath",
+      "elevation": 2715,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 1692
+    },
+    "V013": {
+      "pos": [
+        29.3607,
+        78.3135
+      ],
+      "name": "Chandrashila",
+      "elevation": 2160,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V014": {
+      "pos": [
+        29.571,
+        78.4381
+      ],
+      "name": "Auli",
+      "elevation": 3283,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V015": {
+      "pos": [
+        30.1452,
+        78.3421
+      ],
+      "name": "Gwaldam",
+      "elevation": 982,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 687
+    },
+    "V016": {
+      "pos": [
+        29.9995,
+        78.8652
+      ],
+      "name": "Kapkot",
+      "elevation": 2601,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 3222
+    },
+    "V017": {
+      "pos": [
+        29.1726,
+        78.7293
+      ],
+      "name": "Munsyari",
+      "elevation": 1187,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 490
+    },
+    "V018": {
+      "pos": [
+        29.6757,
+        79.5494
+      ],
+      "name": "Dharchula",
+      "elevation": 1500,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 4892
+    },
+    "V019": {
+      "pos": [
+        29.5554,
+        79.4756
+      ],
+      "name": "Gangolihat",
+      "elevation": 742,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V020": {
+      "pos": [
+        29.5011,
+        78.4587
+      ],
+      "name": "Lohaghat",
+      "elevation": 1388,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 3847
+    },
+    "V021": {
+      "pos": [
+        29.1144,
+        79.6508
+      ],
+      "name": "Tanakpur",
+      "elevation": 251,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 3370
+    },
+    "V022": {
+      "pos": [
+        29.6072,
+        78.2539
+      ],
+      "name": "Banbasa",
+      "elevation": 1943,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 3466
+    },
+    "V023": {
+      "pos": [
+        29.2141,
+        79.7786
+      ],
+      "name": "Khatima",
+      "elevation": 1858,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 2830
+    },
+    "V024": {
+      "pos": [
+        30.5749,
+        78.0611
+      ],
+      "name": "Mana Pass",
+      "elevation": 1360,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V025": {
+      "pos": [
+        30.9199,
+        79.4347
+      ],
+      "name": "Niti Pass",
+      "elevation": 2861,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 4761
+    },
+    "V026": {
+      "pos": [
+        29.0264,
+        79.194
+      ],
+      "name": "Lipulekh Pass",
+      "elevation": 1157,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V027": {
+      "pos": [
+        29.7216,
+        79.5172
+      ],
+      "name": "Kungri Bingri Pass",
+      "elevation": 2992,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 4850
+    },
+    "V028": {
+      "pos": [
+        30.0041,
+        79.3346
+      ],
+      "name": "Traill's Pass",
+      "elevation": 2249,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 147
+    },
+    "V029": {
+      "pos": [
+        28.9703,
+        80.2508
+      ],
+      "name": "Pindari Pass",
+      "elevation": 3628,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 846
+    },
+    "V030": {
+      "pos": [
+        30.0388,
+        78.3462
+      ],
+      "name": "Kafni Pass",
+      "elevation": 1453,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 902
+    },
+    "V031": {
+      "pos": [
+        29.1416,
+        78.2549
+      ],
+      "name": "Sunderdhunga Pass",
+      "elevation": 924,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 4838
+    },
+    "V032": {
+      "pos": [
+        28.8994,
+        78.2981
+      ],
+      "name": "Khatling Pass",
+      "elevation": 1813,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V033": {
+      "pos": [
+        29.421,
+        79.0772
+      ],
+      "name": "Dayara Pass",
+      "elevation": 272,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 2345
+    },
+    "V034": {
+      "pos": [
+        30.8119,
+        78.6235
+      ],
+      "name": "Dodital Pass",
+      "elevation": 2269,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 436
+    },
+    "V035": {
+      "pos": [
+        29.2858,
+        78.8974
+      ],
+      "name": "Har Ki Doon Pass",
+      "elevation": 1878,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V036": {
+      "pos": [
+        30.5217,
+        80.0578
+      ],
+      "name": "Valley of Flowers",
+      "elevation": 2045,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 2515
+    },
+    "V037": {
+      "pos": [
+        30.7532,
+        79.5319
+      ],
+      "name": "Hemkund Pass",
+      "elevation": 2355,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 2437
+    },
+    "V038": {
+      "pos": [
+        31.0859,
+        79.2931
+      ],
+      "name": "Kedar Tal Pass",
+      "elevation": 2550,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V039": {
+      "pos": [
+        30.3127,
+        79.722
+      ],
+      "name": "Gangotri Pass",
+      "elevation": 2716,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 4839
+    },
+    "V040": {
+      "pos": [
+        29.2173,
+        78.8861
+      ],
+      "name": "Maletha 1",
+      "elevation": 1317,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 829
+    },
+    "V041": {
+      "pos": [
+        30.9556,
+        79.1237
+      ],
+      "name": "Saur 1",
+      "elevation": 2790,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 3920
+    },
+    "V042": {
+      "pos": [
+        30.8944,
+        80.0354
+      ],
+      "name": "Kirtinagar 1",
+      "elevation": 239,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3876
+    },
+    "V043": {
+      "pos": [
+        30.2517,
+        80.0218
+      ],
+      "name": "Ghansali 1",
+      "elevation": 3896,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 4749
+    },
+    "V044": {
+      "pos": [
+        30.7128,
+        78.0803
+      ],
+      "name": "Jakholi 1",
+      "elevation": 1022,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V045": {
+      "pos": [
+        29.5838,
+        78.3485
+      ],
+      "name": "Guptkashi 1",
+      "elevation": 2653,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 2733
+    },
+    "V046": {
+      "pos": [
+        30.3214,
+        78.8205
+      ],
+      "name": "Sonprayag 1",
+      "elevation": 1683,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3897
+    },
+    "V047": {
+      "pos": [
+        29.2958,
+        79.3626
+      ],
+      "name": "Gaurikund 1",
+      "elevation": 3406,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 155
+    },
+    "V048": {
+      "pos": [
+        29.9272,
+        78.8708
+      ],
+      "name": "Phata 1",
+      "elevation": 2078,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V049": {
+      "pos": [
+        30.3928,
+        79.6472
+      ],
+      "name": "Sitapur 1",
+      "elevation": 1948,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 3658
+    },
+    "V050": {
+      "pos": [
+        28.9362,
+        78.8291
+      ],
+      "name": "Kalimath 1",
+      "elevation": 2269,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 4211
+    },
+    "V051": {
+      "pos": [
+        30.106,
+        78.1223
+      ],
+      "name": "Chopta 1",
+      "elevation": 2266,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 1865
+    },
+    "V052": {
+      "pos": [
+        29.3245,
+        79.0558
+      ],
+      "name": "Tungnath 1",
+      "elevation": 3956,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 1814
+    },
+    "V053": {
+      "pos": [
+        31.0008,
+        78.7018
+      ],
+      "name": "Chandrashila 1",
+      "elevation": 2862,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 3638
+    },
+    "V054": {
+      "pos": [
+        29.5884,
+        79.9456
+      ],
+      "name": "Auli 1",
+      "elevation": 3094,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 385
+    },
+    "V055": {
+      "pos": [
+        30.6551,
+        78.4898
+      ],
+      "name": "Gwaldam 1",
+      "elevation": 323,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V056": {
+      "pos": [
+        30.6465,
+        78.0027
+      ],
+      "name": "Kausani 1",
+      "elevation": 3071,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V057": {
+      "pos": [
+        31.0936,
+        79.1071
+      ],
+      "name": "Bageshwar 1",
+      "elevation": 3626,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 3625
+    },
+    "V058": {
+      "pos": [
+        29.1241,
+        78.5551
+      ],
+      "name": "Kapkot 1",
+      "elevation": 2193,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3439
+    },
+    "V059": {
+      "pos": [
+        30.7043,
+        80.1348
+      ],
+      "name": "Munsyari 1",
+      "elevation": 271,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 4366
+    },
+    "V060": {
+      "pos": [
+        29.7456,
+        79.8108
+      ],
+      "name": "Dharchula 1",
+      "elevation": 2215,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 623
+    },
+    "V061": {
+      "pos": [
+        29.6045,
+        78.1823
+      ],
+      "name": "Pithoragarh 1",
+      "elevation": 2451,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V062": {
+      "pos": [
+        30.6895,
+        80.1985
+      ],
+      "name": "Gangolihat 1",
+      "elevation": 952,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V063": {
+      "pos": [
+        29.0636,
+        79.3799
+      ],
+      "name": "Lohaghat 1",
+      "elevation": 953,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V064": {
+      "pos": [
+        30.2237,
+        79.6764
+      ],
+      "name": "Champawat 1",
+      "elevation": 3442,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V065": {
+      "pos": [
+        29.1881,
+        78.2073
+      ],
+      "name": "Tanakpur 1",
+      "elevation": 1397,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 3802
+    },
+    "V066": {
+      "pos": [
+        30.047,
+        80.1468
+      ],
+      "name": "Banbasa 1",
+      "elevation": 2798,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 1005
+    },
+    "V067": {
+      "pos": [
+        30.7313,
+        79.5862
+      ],
+      "name": "Khatima 1",
+      "elevation": 2825,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 915
+    },
+    "V068": {
+      "pos": [
+        30.778,
+        79.9004
+      ],
+      "name": "Mana Pass 1",
+      "elevation": 1613,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 2122
+    },
+    "V069": {
+      "pos": [
+        30.4599,
+        79.1505
+      ],
+      "name": "Niti Pass 1",
+      "elevation": 3527,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V070": {
+      "pos": [
+        30.1499,
+        79.8615
+      ],
+      "name": "Lipulekh Pass 1",
+      "elevation": 1811,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V071": {
+      "pos": [
+        30.4871,
+        79.3904
+      ],
+      "name": "Kungri Bingri Pass 1",
+      "elevation": 3292,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 3889
+    },
+    "V072": {
+      "pos": [
+        29.2608,
+        79.4933
+      ],
+      "name": "Traill's Pass 1",
+      "elevation": 3842,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V073": {
+      "pos": [
+        30.2139,
+        79.0539
+      ],
+      "name": "Pindari Pass 1",
+      "elevation": 2402,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V074": {
+      "pos": [
+        29.0727,
+        78.3401
+      ],
+      "name": "Kafni Pass 1",
+      "elevation": 2872,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V075": {
+      "pos": [
+        30.7685,
+        78.9711
+      ],
+      "name": "Sunderdhunga Pass 1",
+      "elevation": 1085,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V076": {
+      "pos": [
+        29.266,
+        79.0303
+      ],
+      "name": "Khatling Pass 1",
+      "elevation": 534,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 274
+    },
+    "V077": {
+      "pos": [
+        29.8477,
+        78.7385
+      ],
+      "name": "Dayara Pass 1",
+      "elevation": 1245,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 956
+    },
+    "V078": {
+      "pos": [
+        29.6937,
+        79.8833
+      ],
+      "name": "Dodital Pass 1",
+      "elevation": 1262,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3507
+    },
+    "V079": {
+      "pos": [
+        30.4668,
+        80.2151
+      ],
+      "name": "Har Ki Doon Pass 1",
+      "elevation": 941,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 4067
+    },
+    "V080": {
+      "pos": [
+        30.0569,
+        79.744
+      ],
+      "name": "Valley of Flowers 1",
+      "elevation": 696,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 196
+    },
+    "V081": {
+      "pos": [
+        30.0502,
+        79.1664
+      ],
+      "name": "Hemkund Pass 1",
+      "elevation": 2729,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 178
+    },
+    "V082": {
+      "pos": [
+        29.1076,
+        78.2026
+      ],
+      "name": "Kedar Tal Pass 1",
+      "elevation": 1250,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 1062
+    },
+    "V083": {
+      "pos": [
+        30.9143,
+        78.0834
+      ],
+      "name": "Gangotri Pass 1",
+      "elevation": 3521,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V084": {
+      "pos": [
+        29.3787,
+        79.9563
+      ],
+      "name": "Maletha 2",
+      "elevation": 856,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V085": {
+      "pos": [
+        30.9014,
+        78.7661
+      ],
+      "name": "Saur 2",
+      "elevation": 3216,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 2529
+    },
+    "V086": {
+      "pos": [
+        29.0676,
+        78.2501
+      ],
+      "name": "Kirtinagar 2",
+      "elevation": 458,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V087": {
+      "pos": [
+        28.9135,
+        79.7696
+      ],
+      "name": "Ghansali 2",
+      "elevation": 792,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 730
+    },
+    "V088": {
+      "pos": [
+        30.2963,
+        78.9927
+      ],
+      "name": "Jakholi 2",
+      "elevation": 3514,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V089": {
+      "pos": [
+        29.1812,
+        79.7908
+      ],
+      "name": "Guptkashi 2",
+      "elevation": 2105,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V090": {
+      "pos": [
+        28.9075,
+        79.6629
+      ],
+      "name": "Sonprayag 2",
+      "elevation": 2094,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 3580
+    },
+    "V091": {
+      "pos": [
+        30.636,
+        78.3696
+      ],
+      "name": "Gaurikund 2",
+      "elevation": 3600,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 2977
+    },
+    "V092": {
+      "pos": [
+        30.925,
+        79.2279
+      ],
+      "name": "Phata 2",
+      "elevation": 3423,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 1309
+    },
+    "V093": {
+      "pos": [
+        30.6145,
+        79.0154
+      ],
+      "name": "Sitapur 2",
+      "elevation": 2935,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 3178
+    },
+    "V094": {
+      "pos": [
+        30.0784,
+        78.0637
+      ],
+      "name": "Kalimath 2",
+      "elevation": 767,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V095": {
+      "pos": [
+        30.1023,
+        78.9449
+      ],
+      "name": "Chopta 2",
+      "elevation": 1980,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 2730
+    },
+    "V096": {
+      "pos": [
+        30.9455,
+        80.0573
+      ],
+      "name": "Tungnath 2",
+      "elevation": 1647,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 4603
+    },
+    "V097": {
+      "pos": [
+        30.9038,
+        78.3363
+      ],
+      "name": "Chandrashila 2",
+      "elevation": 1039,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 159
+    },
+    "V098": {
+      "pos": [
+        29.2395,
+        79.8125
+      ],
+      "name": "Auli 2",
+      "elevation": 3069,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 1373
+    },
+    "V099": {
+      "pos": [
+        30.0821,
+        79.1671
+      ],
+      "name": "Gwaldam 2",
+      "elevation": 2533,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 4280
+    },
+    "V100": {
+      "pos": [
+        30.7995,
+        78.9865
+      ],
+      "name": "Kausani 2",
+      "elevation": 415,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 4578
+    },
+    "V101": {
+      "pos": [
+        31.0228,
+        79.8138
+      ],
+      "name": "Bageshwar 2",
+      "elevation": 1329,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V102": {
+      "pos": [
+        29.6906,
+        78.5358
+      ],
+      "name": "Kapkot 2",
+      "elevation": 2346,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V103": {
+      "pos": [
+        29.667,
+        78.0915
+      ],
+      "name": "Munsyari 2",
+      "elevation": 3584,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V104": {
+      "pos": [
+        28.8783,
+        80.2759
+      ],
+      "name": "Dharchula 2",
+      "elevation": 1775,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3280
+    },
+    "V105": {
+      "pos": [
+        30.5596,
+        78.5877
+      ],
+      "name": "Pithoragarh 2",
+      "elevation": 3850,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V106": {
+      "pos": [
+        29.6105,
+        79.756
+      ],
+      "name": "Gangolihat 2",
+      "elevation": 2056,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 1719
+    },
+    "V107": {
+      "pos": [
+        29.3482,
+        78.8173
+      ],
+      "name": "Lohaghat 2",
+      "elevation": 2923,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 2137
+    },
+    "V108": {
+      "pos": [
+        29.3183,
+        78.894
+      ],
+      "name": "Champawat 2",
+      "elevation": 3366,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 2083
+    },
+    "V109": {
+      "pos": [
+        30.3462,
+        79.1034
+      ],
+      "name": "Tanakpur 2",
+      "elevation": 235,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 4143
+    },
+    "V110": {
+      "pos": [
+        29.9882,
+        79.4749
+      ],
+      "name": "Banbasa 2",
+      "elevation": 1498,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 3591
+    },
+    "V111": {
+      "pos": [
+        30.3608,
+        78.8473
+      ],
+      "name": "Khatima 2",
+      "elevation": 2515,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 3639
+    },
+    "V112": {
+      "pos": [
+        29.768,
+        79.9455
+      ],
+      "name": "Mana Pass 2",
+      "elevation": 3170,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V113": {
+      "pos": [
+        30.3062,
+        78.9601
+      ],
+      "name": "Niti Pass 2",
+      "elevation": 1790,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V114": {
+      "pos": [
+        29.4083,
+        80.2646
+      ],
+      "name": "Lipulekh Pass 2",
+      "elevation": 3150,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3542
+    },
+    "V115": {
+      "pos": [
+        28.919,
+        78.3403
+      ],
+      "name": "Kungri Bingri Pass 2",
+      "elevation": 1816,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V116": {
+      "pos": [
+        30.9235,
+        78.3987
+      ],
+      "name": "Traill's Pass 2",
+      "elevation": 230,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V117": {
+      "pos": [
+        28.8416,
+        79.3007
+      ],
+      "name": "Pindari Pass 2",
+      "elevation": 2328,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 4076
+    },
+    "V118": {
+      "pos": [
+        29.6924,
+        79.9357
+      ],
+      "name": "Kafni Pass 2",
+      "elevation": 764,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V119": {
+      "pos": [
+        31.0945,
+        78.2969
+      ],
+      "name": "Sunderdhunga Pass 2",
+      "elevation": 762,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 2831
+    },
+    "V120": {
+      "pos": [
+        29.1098,
+        79.313
+      ],
+      "name": "Khatling Pass 2",
+      "elevation": 1769,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 2607
+    },
+    "V121": {
+      "pos": [
+        30.5065,
+        79.8318
+      ],
+      "name": "Dayara Pass 2",
+      "elevation": 2282,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 3610
+    },
+    "V122": {
+      "pos": [
+        30.6111,
+        78.5052
+      ],
+      "name": "Dodital Pass 2",
+      "elevation": 3337,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 2504
+    },
+    "V123": {
+      "pos": [
+        30.3367,
+        78.538
+      ],
+      "name": "Har Ki Doon Pass 2",
+      "elevation": 2450,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V124": {
+      "pos": [
+        29.0953,
+        79.3654
+      ],
+      "name": "Valley of Flowers 2",
+      "elevation": 863,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 2371
+    },
+    "V125": {
+      "pos": [
+        29.6795,
+        79.2829
+      ],
+      "name": "Hemkund Pass 2",
+      "elevation": 1323,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 4777
+    },
+    "V126": {
+      "pos": [
+        30.6743,
+        78.8047
+      ],
+      "name": "Kedar Tal Pass 2",
+      "elevation": 3507,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 2708
+    },
+    "V127": {
+      "pos": [
+        30.8234,
+        79.9841
+      ],
+      "name": "Gangotri Pass 2",
+      "elevation": 3063,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V128": {
+      "pos": [
+        29.5137,
+        79.1177
+      ],
+      "name": "Maletha 3",
+      "elevation": 1328,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3130
+    },
+    "V129": {
+      "pos": [
+        29.6521,
+        80.2323
+      ],
+      "name": "Saur 3",
+      "elevation": 3364,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V130": {
+      "pos": [
+        30.9603,
+        80.2606
+      ],
+      "name": "Kirtinagar 3",
+      "elevation": 463,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 4643
+    },
+    "V131": {
+      "pos": [
+        30.0761,
+        78.7935
+      ],
+      "name": "Ghansali 3",
+      "elevation": 1047,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 1281
+    },
+    "V132": {
+      "pos": [
+        30.6909,
+        78.2252
+      ],
+      "name": "Jakholi 3",
+      "elevation": 3667,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V133": {
+      "pos": [
+        28.8427,
+        79.1482
+      ],
+      "name": "Guptkashi 3",
+      "elevation": 1617,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V134": {
+      "pos": [
+        29.4166,
+        79.4324
+      ],
+      "name": "Sonprayag 3",
+      "elevation": 1112,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 4184
+    },
+    "V135": {
+      "pos": [
+        29.4211,
+        79.6271
+      ],
+      "name": "Gaurikund 3",
+      "elevation": 3752,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V136": {
+      "pos": [
+        30.3407,
+        79.9028
+      ],
+      "name": "Phata 3",
+      "elevation": 2755,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V137": {
+      "pos": [
+        30.3005,
+        79.5378
+      ],
+      "name": "Sitapur 3",
+      "elevation": 3732,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 4628
+    },
+    "V138": {
+      "pos": [
+        30.2784,
+        79.0484
+      ],
+      "name": "Kalimath 3",
+      "elevation": 2865,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3172
+    },
+    "V139": {
+      "pos": [
+        29.2642,
+        79.3841
+      ],
+      "name": "Chopta 3",
+      "elevation": 946,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V140": {
+      "pos": [
+        29.5925,
+        80.1143
+      ],
+      "name": "Tungnath 3",
+      "elevation": 534,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 900
+    },
+    "V141": {
+      "pos": [
+        30.8656,
+        80.0964
+      ],
+      "name": "Chandrashila 3",
+      "elevation": 933,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 2880
+    },
+    "V142": {
+      "pos": [
+        29.5859,
+        78.1403
+      ],
+      "name": "Auli 3",
+      "elevation": 1361,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 4402
+    },
+    "V143": {
+      "pos": [
+        29.319,
+        80.2476
+      ],
+      "name": "Gwaldam 3",
+      "elevation": 2422,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 3374
+    },
+    "V144": {
+      "pos": [
+        30.38,
+        79.782
+      ],
+      "name": "Kausani 3",
+      "elevation": 1304,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 4739
+    },
+    "V145": {
+      "pos": [
+        29.2356,
+        80.0906
+      ],
+      "name": "Bageshwar 3",
+      "elevation": 2045,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V146": {
+      "pos": [
+        29.6709,
+        79.7719
+      ],
+      "name": "Kapkot 3",
+      "elevation": 1342,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3961
+    },
+    "V147": {
+      "pos": [
+        29.1408,
+        79.3718
+      ],
+      "name": "Munsyari 3",
+      "elevation": 1710,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V148": {
+      "pos": [
+        29.9387,
+        78.8329
+      ],
+      "name": "Dharchula 3",
+      "elevation": 2549,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 1303
+    },
+    "V149": {
+      "pos": [
+        29.6233,
+        79.4574
+      ],
+      "name": "Pithoragarh 3",
+      "elevation": 2560,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 1972
+    },
+    "V150": {
+      "pos": [
+        28.9518,
+        79.986
+      ],
+      "name": "Gangolihat 3",
+      "elevation": 375,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 4071
+    },
+    "V151": {
+      "pos": [
+        29.851,
+        79.7352
+      ],
+      "name": "Lohaghat 3",
+      "elevation": 606,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 4039
+    },
+    "V152": {
+      "pos": [
+        30.8494,
+        78.6702
+      ],
+      "name": "Champawat 3",
+      "elevation": 258,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V153": {
+      "pos": [
+        29.7858,
+        78.7134
+      ],
+      "name": "Tanakpur 3",
+      "elevation": 2448,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 3816
+    },
+    "V154": {
+      "pos": [
+        29.6201,
+        79.5753
+      ],
+      "name": "Banbasa 3",
+      "elevation": 3369,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V155": {
+      "pos": [
+        28.9429,
+        79.3759
+      ],
+      "name": "Khatima 3",
+      "elevation": 3496,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 1429
+    },
+    "V156": {
+      "pos": [
+        30.2307,
+        79.0192
+      ],
+      "name": "Mana Pass 3",
+      "elevation": 3810,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 836
+    },
+    "V157": {
+      "pos": [
+        30.2643,
+        80.0048
+      ],
+      "name": "Niti Pass 3",
+      "elevation": 2151,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 3391
+    },
+    "V158": {
+      "pos": [
+        30.7733,
+        78.0185
+      ],
+      "name": "Lipulekh Pass 3",
+      "elevation": 1240,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    },
+    "V159": {
+      "pos": [
+        29.404,
+        80.1604
+      ],
+      "name": "Kungri Bingri Pass 3",
+      "elevation": 3862,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V160": {
+      "pos": [
+        30.2616,
+        79.6244
+      ],
+      "name": "Traill's Pass 3",
+      "elevation": 1540,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 4804
+    },
+    "V161": {
+      "pos": [
+        30.1339,
+        79.7068
+      ],
+      "name": "Pindari Pass 3",
+      "elevation": 623,
+      "division": "Garhwal",
+      "type": "village",
+      "population": 3815
+    },
+    "V162": {
+      "pos": [
+        29.2153,
+        79.5556
+      ],
+      "name": "Kafni Pass 3",
+      "elevation": 2883,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V163": {
+      "pos": [
+        30.004,
+        78.8647
+      ],
+      "name": "Sunderdhunga Pass 3",
+      "elevation": 1850,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 4678
+    },
+    "V164": {
+      "pos": [
+        30.3266,
+        78.8529
+      ],
+      "name": "Khatling Pass 3",
+      "elevation": 3623,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 1753
+    },
+    "V165": {
+      "pos": [
+        29.9761,
+        78.3738
+      ],
+      "name": "Dayara Pass 3",
+      "elevation": 1300,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 3189
+    },
+    "V166": {
+      "pos": [
+        30.9059,
+        78.101
+      ],
+      "name": "Dodital Pass 3",
+      "elevation": 1662,
+      "division": "Garhwal",
+      "type": "intersection",
+      "population": 3755
+    },
+    "V167": {
+      "pos": [
+        29.333,
+        78.6791
+      ],
+      "name": "Har Ki Doon Pass 3",
+      "elevation": 869,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 2745
+    },
+    "V168": {
+      "pos": [
+        31.0974,
+        79.2388
+      ],
+      "name": "Valley of Flowers 3",
+      "elevation": 1655,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V169": {
+      "pos": [
+        30.7424,
+        79.0617
+      ],
+      "name": "Hemkund Pass 3",
+      "elevation": 1077,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 4797
+    },
+    "V170": {
+      "pos": [
+        31.0339,
+        79.1712
+      ],
+      "name": "Kedar Tal Pass 3",
+      "elevation": 1994,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V171": {
+      "pos": [
+        30.7086,
+        79.2259
+      ],
+      "name": "Gangotri Pass 3",
+      "elevation": 585,
+      "division": "Kumaon",
+      "type": "intersection",
+      "population": 3866
+    },
+    "V172": {
+      "pos": [
+        29.9022,
+        80.2433
+      ],
+      "name": "Maletha 4",
+      "elevation": 876,
+      "division": "Kumaon",
+      "type": "village",
+      "population": 1811
+    },
+    "V173": {
+      "pos": [
+        29.9613,
+        78.5514
+      ],
+      "name": "Saur 4",
+      "elevation": 3601,
+      "division": "Garhwal",
+      "type": "pass",
+      "population": 0
+    },
+    "V174": {
+      "pos": [
+        30.0403,
+        79.1033
+      ],
+      "name": "Kirtinagar 4",
+      "elevation": 2592,
+      "division": "Kumaon",
+      "type": "pass",
+      "population": 0
+    }
+  },
+  "roads": [
+    {
+      "from": "V013",
+      "to": "NTL",
+      "distance": 127.7,
+      "traffic": 0.23,
+      "name": "Chandrashila to Nainital (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V104",
+      "to": "V064",
+      "distance": 163.5,
+      "traffic": 0.85,
+      "name": "Dharchula 2 to Champawat 1 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "PIT",
+      "to": "V016",
+      "distance": 157.1,
+      "traffic": 0.42,
+      "name": "Pithoragarh to Kapkot (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V131",
+      "to": "V127",
+      "distance": 156.0,
+      "traffic": 0.3,
+      "name": "Ghansali 3 to Gangotri Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V006",
+      "to": "V154",
+      "distance": 183.0,
+      "traffic": 0.66,
+      "name": "Sonprayag to Banbasa 3 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V036",
+      "to": "V091",
+      "distance": 187.8,
+      "traffic": 0.29,
+      "name": "Valley of Flowers to Gaurikund 2 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V029",
+      "to": "V143",
+      "distance": 38.7,
+      "traffic": 0.61,
+      "name": "Pindari Pass to Gwaldam 3 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V086",
+      "to": "V108",
+      "distance": 76.7,
+      "traffic": 0.83,
+      "name": "Kirtinagar 2 to Champawat 2 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V093",
+      "to": "V074",
+      "distance": 186.8,
+      "traffic": 0.18,
+      "name": "Sitapur 2 to Kafni Pass 1 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V126",
+      "to": "V068",
+      "distance": 122.2,
+      "traffic": 0.12,
+      "name": "Kedar Tal Pass 2 to Mana Pass 1 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "KPT",
+      "to": "V122",
+      "distance": 114.7,
+      "traffic": 0.59,
+      "name": "Kotdwar to Dodital Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V143",
+      "to": "V138",
+      "distance": 170.5,
+      "traffic": 0.26,
+      "name": "Gwaldam 3 to Kalimath 3 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V139",
+      "to": "V033",
+      "distance": 38.3,
+      "traffic": 0.55,
+      "name": "Chopta 3 to Dayara Pass (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V136",
+      "to": "V084",
+      "distance": 106.9,
+      "traffic": 0.66,
+      "name": "Phata 3 to Maletha 2 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V103",
+      "to": "V158",
+      "distance": 123.1,
+      "traffic": 0.54,
+      "name": "Munsyari 2 to Lipulekh Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V113",
+      "to": "V169",
+      "distance": 49.7,
+      "traffic": 0.13,
+      "name": "Niti Pass 2 to Hemkund Pass 3 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V027",
+      "to": "V096",
+      "distance": 148.5,
+      "traffic": 0.43,
+      "name": "Kungri Bingri Pass to Tungnath 2 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 4,
+      "speed_limit": 40
+    },
+    {
+      "from": "V008",
+      "to": "V055",
+      "distance": 100.0,
+      "traffic": 0.69,
+      "name": "Phata to Gwaldam 1 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V027",
+      "to": "V048",
+      "distance": 75.3,
+      "traffic": 0.51,
+      "name": "Kungri Bingri Pass to Phata 1 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "KIC",
+      "to": "V073",
+      "distance": 171.9,
+      "traffic": 0.88,
+      "name": "Kichha to Pindari Pass 1 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V022",
+      "to": "V052",
+      "distance": 94.4,
+      "traffic": 0.89,
+      "name": "Banbasa to Tungnath 1 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 3,
+      "speed_limit": 30
+    },
+    {
+      "from": "V026",
+      "to": "V167",
+      "distance": 66.5,
+      "traffic": 0.16,
+      "name": "Lipulekh Pass to Har Ki Doon Pass 3 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V096",
+      "to": "V019",
+      "distance": 167.3,
+      "traffic": 0.17,
+      "name": "Tungnath 2 to Gangolihat (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V159",
+      "to": "V078",
+      "distance": 44.5,
+      "traffic": 0.78,
+      "name": "Kungri Bingri Pass 3 to Dodital Pass 1 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "DEH",
+      "to": "V046",
+      "distance": 87.5,
+      "traffic": 0.66,
+      "name": "Dehradun to Sonprayag 1 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V111",
+      "to": "V159",
+      "distance": 180.3,
+      "traffic": 0.6,
+      "name": "Khatima 2 to Kungri Bingri Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 4,
+      "speed_limit": 80
+    },
+    {
+      "from": "DEH",
+      "to": "V083",
+      "distance": 66.6,
+      "traffic": 0.69,
+      "name": "Dehradun to Gangotri Pass 1 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "NTL",
+      "to": "V007",
+      "distance": 158.8,
+      "traffic": 0.27,
+      "name": "Nainital to Gaurikund (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V141",
+      "to": "V006",
+      "distance": 172.2,
+      "traffic": 0.79,
+      "name": "Chandrashila 3 to Sonprayag (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V170",
+      "to": "V060",
+      "distance": 159.7,
+      "traffic": 0.51,
+      "name": "Kedar Tal Pass 3 to Dharchula 1 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "MUS",
+      "to": "CMP",
+      "distance": 158.9,
+      "traffic": 0.58,
+      "name": "Mussoorie to Champawat (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V017",
+      "to": "V008",
+      "distance": 101.4,
+      "traffic": 0.51,
+      "name": "Munsyari to Phata (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V079",
+      "to": "V023",
+      "distance": 147.2,
+      "traffic": 0.42,
+      "name": "Har Ki Doon Pass 1 to Khatima (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V123",
+      "to": "V031",
+      "distance": 136.3,
+      "traffic": 0.48,
+      "name": "Har Ki Doon Pass 2 to Sunderdhunga Pass (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "KPT",
+      "to": "V005",
+      "distance": 77.8,
+      "traffic": 0.4,
+      "name": "Kotdwar to Guptkashi (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V004",
+      "to": "V107",
+      "distance": 22.5,
+      "traffic": 0.8,
+      "name": "Jakholi to Lohaghat 2 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V015",
+      "to": "V089",
+      "distance": 193.2,
+      "traffic": 0.91,
+      "name": "Gwaldam to Guptkashi 2 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V154",
+      "to": "V023",
+      "distance": 50.4,
+      "traffic": 0.62,
+      "name": "Banbasa 3 to Khatima (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V018",
+      "to": "V003",
+      "distance": 73.1,
+      "traffic": 0.2,
+      "name": "Dharchula to Ghansali (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V107",
+      "to": "CMP",
+      "distance": 115.2,
+      "traffic": 0.6,
+      "name": "Lohaghat 2 to Champawat (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "PAU",
+      "to": "V044",
+      "distance": 143.7,
+      "traffic": 0.23,
+      "name": "Pauri to Jakholi 1 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V135",
+      "to": "V042",
+      "distance": 169.7,
+      "traffic": 0.39,
+      "name": "Gaurikund 3 to Kirtinagar 1 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 4,
+      "speed_limit": 30
+    },
+    {
+      "from": "HDW",
+      "to": "V075",
+      "distance": 182.3,
+      "traffic": 0.24,
+      "name": "Haldwani to Sunderdhunga Pass 1 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V071",
+      "to": "V132",
+      "distance": 131.3,
+      "traffic": 0.38,
+      "name": "Kungri Bingri Pass 1 to Jakholi 3 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "RUD",
+      "to": "V128",
+      "distance": 17.5,
+      "traffic": 0.34,
+      "name": "Rudrapur to Maletha 3 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "PIT",
+      "to": "V084",
+      "distance": 36.9,
+      "traffic": 0.36,
+      "name": "Pithoragarh to Maletha 2 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V062",
+      "to": "V010",
+      "distance": 163.2,
+      "traffic": 0.36,
+      "name": "Gangolihat 1 to Kalimath (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V087",
+      "to": "V163",
+      "distance": 157.3,
+      "traffic": 0.41,
+      "name": "Ghansali 2 to Sunderdhunga Pass 3 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "KPT",
+      "to": "V060",
+      "distance": 67.9,
+      "traffic": 0.23,
+      "name": "Kotdwar to Dharchula 1 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V118",
+      "to": "V136",
+      "distance": 72.1,
+      "traffic": 0.44,
+      "name": "Kafni Pass 2 to Phata 3 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 4,
+      "speed_limit": 60
+    },
+    {
+      "from": "V080",
+      "to": "V170",
+      "distance": 125.7,
+      "traffic": 0.12,
+      "name": "Valley of Flowers 1 to Kedar Tal Pass 3 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V092",
+      "to": "V077",
+      "distance": 131.3,
+      "traffic": 0.29,
+      "name": "Phata 2 to Dayara Pass 1 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V072",
+      "to": "V167",
+      "distance": 90.7,
+      "traffic": 0.36,
+      "name": "Traill's Pass 1 to Har Ki Doon Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V118",
+      "to": "V005",
+      "distance": 7.9,
+      "traffic": 0.89,
+      "name": "Kafni Pass 2 to Guptkashi (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V112",
+      "to": "V172",
+      "distance": 36.3,
+      "traffic": 0.53,
+      "name": "Mana Pass 2 to Maletha 4 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V042",
+      "to": "V097",
+      "distance": 188.6,
+      "traffic": 0.84,
+      "name": "Kirtinagar 1 to Chandrashila 2 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V136",
+      "to": "V111",
+      "distance": 117.2,
+      "traffic": 0.65,
+      "name": "Phata 3 to Khatima 2 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V003",
+      "to": "V013",
+      "distance": 165.4,
+      "traffic": 0.72,
+      "name": "Ghansali to Chandrashila (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V041",
+      "to": "V054",
+      "distance": 177.1,
+      "traffic": 0.54,
+      "name": "Saur 1 to Auli 1 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V135",
+      "to": "V125",
+      "distance": 47.8,
+      "traffic": 0.77,
+      "name": "Gaurikund 3 to Hemkund Pass 2 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V159",
+      "to": "SRN",
+      "distance": 175.6,
+      "traffic": 0.55,
+      "name": "Kungri Bingri Pass 3 to Srinagar (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V036",
+      "to": "TEH",
+      "distance": 82.8,
+      "traffic": 0.51,
+      "name": "Valley of Flowers to Tehri (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "PIT",
+      "to": "V092",
+      "distance": 185.1,
+      "traffic": 0.24,
+      "name": "Pithoragarh to Phata 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V011",
+      "to": "V111",
+      "distance": 66.4,
+      "traffic": 0.86,
+      "name": "Chopta to Khatima 2 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V085",
+      "to": "V136",
+      "distance": 140.7,
+      "traffic": 0.9,
+      "name": "Saur 2 to Phata 3 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V068",
+      "to": "V107",
+      "distance": 199.1,
+      "traffic": 0.18,
+      "name": "Mana Pass 1 to Lohaghat 2 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V017",
+      "to": "V133",
+      "distance": 59.2,
+      "traffic": 0.56,
+      "name": "Munsyari to Guptkashi 3 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V044",
+      "to": "V013",
+      "distance": 152.3,
+      "traffic": 0.35,
+      "name": "Jakholi 1 to Chandrashila (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V111",
+      "to": "V117",
+      "distance": 176.0,
+      "traffic": 0.39,
+      "name": "Khatima 2 to Pindari Pass 2 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V104",
+      "to": "V121",
+      "distance": 187.3,
+      "traffic": 0.48,
+      "name": "Dharchula 2 to Dayara Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 4,
+      "speed_limit": 60
+    },
+    {
+      "from": "V001",
+      "to": "HDW",
+      "distance": 98.8,
+      "traffic": 0.53,
+      "name": "Saur to Haldwani (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V171",
+      "to": "V169",
+      "distance": 18.6,
+      "traffic": 0.23,
+      "name": "Gangotri Pass 3 to Hemkund Pass 3 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V160",
+      "to": "V090",
+      "distance": 150.4,
+      "traffic": 0.12,
+      "name": "Traill's Pass 3 to Sonprayag 2 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V023",
+      "to": "V108",
+      "distance": 98.9,
+      "traffic": 0.93,
+      "name": "Khatima to Champawat 2 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V005",
+      "to": "V101",
+      "distance": 141.0,
+      "traffic": 0.18,
+      "name": "Guptkashi to Bageshwar 2 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V030",
+      "to": "V037",
+      "distance": 153.7,
+      "traffic": 0.37,
+      "name": "Kafni Pass to Hemkund Pass (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V018",
+      "to": "V035",
+      "distance": 84.3,
+      "traffic": 0.74,
+      "name": "Dharchula to Har Ki Doon Pass (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V023",
+      "to": "V069",
+      "distance": 154.9,
+      "traffic": 0.65,
+      "name": "Khatima to Niti Pass 1 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V054",
+      "to": "V164",
+      "distance": 146.4,
+      "traffic": 0.71,
+      "name": "Auli 1 to Khatling Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V110",
+      "to": "V145",
+      "distance": 107.9,
+      "traffic": 0.84,
+      "name": "Banbasa 2 to Bageshwar 3 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V073",
+      "to": "V023",
+      "distance": 137.1,
+      "traffic": 0.81,
+      "name": "Pindari Pass 1 to Khatima (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V156",
+      "to": "V021",
+      "distance": 142.4,
+      "traffic": 0.56,
+      "name": "Mana Pass 3 to Tanakpur (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V085",
+      "to": "V099",
+      "distance": 101.3,
+      "traffic": 0.71,
+      "name": "Saur 2 to Gwaldam 2 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V068",
+      "to": "V170",
+      "distance": 85.8,
+      "traffic": 0.94,
+      "name": "Mana Pass 1 to Kedar Tal Pass 3 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V091",
+      "to": "KSN",
+      "distance": 187.6,
+      "traffic": 0.64,
+      "name": "Gaurikund 2 to Kausani (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V027",
+      "to": "V124",
+      "distance": 71.5,
+      "traffic": 0.7,
+      "name": "Kungri Bingri Pass to Valley of Flowers 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V000",
+      "to": "V139",
+      "distance": 88.3,
+      "traffic": 0.18,
+      "name": "Maletha to Chopta 3 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V118",
+      "to": "V004",
+      "distance": 131.9,
+      "traffic": 0.64,
+      "name": "Kafni Pass 2 to Jakholi (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V052",
+      "to": "V018",
+      "distance": 67.2,
+      "traffic": 0.81,
+      "name": "Tungnath 1 to Dharchula (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V170",
+      "to": "V036",
+      "distance": 113.7,
+      "traffic": 0.11,
+      "name": "Kedar Tal Pass 3 to Valley of Flowers (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V095",
+      "to": "V005",
+      "distance": 113.1,
+      "traffic": 0.23,
+      "name": "Chopta 2 to Guptkashi (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V067",
+      "to": "V101",
+      "distance": 41.1,
+      "traffic": 0.7,
+      "name": "Khatima 1 to Bageshwar 2 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V131",
+      "to": "V071",
+      "distance": 80.4,
+      "traffic": 0.76,
+      "name": "Ghansali 3 to Kungri Bingri Pass 1 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V137",
+      "to": "V174",
+      "distance": 56.2,
+      "traffic": 0.88,
+      "name": "Sitapur 3 to Kirtinagar 4 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 3,
+      "speed_limit": 40
+    },
+    {
+      "from": "V076",
+      "to": "BNS",
+      "distance": 123.9,
+      "traffic": 0.4,
+      "name": "Khatling Pass 1 to Bageshwar (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V054",
+      "to": "V085",
+      "distance": 195.9,
+      "traffic": 0.85,
+      "name": "Auli 1 to Saur 2 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V141",
+      "to": "V110",
+      "distance": 119.3,
+      "traffic": 0.54,
+      "name": "Chandrashila 3 to Banbasa 2 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "PAU",
+      "to": "V068",
+      "distance": 128.0,
+      "traffic": 0.48,
+      "name": "Pauri to Mana Pass 1 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V038",
+      "to": "V034",
+      "distance": 80.3,
+      "traffic": 0.6,
+      "name": "Kedar Tal Pass to Dodital Pass (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V155",
+      "to": "V094",
+      "distance": 192.6,
+      "traffic": 0.14,
+      "name": "Khatima 3 to Kalimath 2 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V137",
+      "to": "V019",
+      "distance": 83.0,
+      "traffic": 0.32,
+      "name": "Sitapur 3 to Gangolihat (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 3,
+      "speed_limit": 40
+    },
+    {
+      "from": "ALM",
+      "to": "V144",
+      "distance": 89.0,
+      "traffic": 0.17,
+      "name": "Almora to Kausani 3 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V097",
+      "to": "V083",
+      "distance": 28.1,
+      "traffic": 0.48,
+      "name": "Chandrashila 2 to Gangotri Pass 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V072",
+      "to": "V147",
+      "distance": 19.0,
+      "traffic": 0.1,
+      "name": "Traill's Pass 1 to Munsyari 3 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V047",
+      "to": "V014",
+      "distance": 107.1,
+      "traffic": 0.21,
+      "name": "Gaurikund 1 to Auli (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V135",
+      "to": "V155",
+      "distance": 60.0,
+      "traffic": 0.84,
+      "name": "Gaurikund 3 to Khatima 3 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "BNS",
+      "to": "V144",
+      "distance": 37.5,
+      "traffic": 0.29,
+      "name": "Bageshwar to Kausani 3 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V020",
+      "to": "V073",
+      "distance": 103.1,
+      "traffic": 0.82,
+      "name": "Lohaghat to Pindari Pass 1 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V102",
+      "to": "RUD",
+      "distance": 63.6,
+      "traffic": 0.59,
+      "name": "Kapkot 2 to Rudrapur (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V001",
+      "to": "V134",
+      "distance": 85.0,
+      "traffic": 0.48,
+      "name": "Saur to Sonprayag 3 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "RTH",
+      "to": "V073",
+      "distance": 85.8,
+      "traffic": 0.94,
+      "name": "Ramnagar to Pindari Pass 1 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V013",
+      "to": "V085",
+      "distance": 178.2,
+      "traffic": 0.49,
+      "name": "Chandrashila to Saur 2 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V027",
+      "to": "V031",
+      "distance": 154.2,
+      "traffic": 0.27,
+      "name": "Kungri Bingri Pass to Sunderdhunga Pass (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V062",
+      "to": "V069",
+      "distance": 119.1,
+      "traffic": 0.16,
+      "name": "Gangolihat 1 to Niti Pass 1 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "GPC",
+      "to": "V152",
+      "distance": 91.1,
+      "traffic": 0.56,
+      "name": "Gangotri to Champawat 3 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V008",
+      "to": "V099",
+      "distance": 120.8,
+      "traffic": 0.61,
+      "name": "Phata to Gwaldam 2 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V032",
+      "to": "V011",
+      "distance": 124.3,
+      "traffic": 0.53,
+      "name": "Khatling Pass to Chopta (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V052",
+      "to": "DEH",
+      "distance": 158.2,
+      "traffic": 0.8,
+      "name": "Tungnath 1 to Dehradun (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V128",
+      "to": "V109",
+      "distance": 92.4,
+      "traffic": 0.41,
+      "name": "Maletha 3 to Tanakpur 2 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V147",
+      "to": "V031",
+      "distance": 124.0,
+      "traffic": 0.11,
+      "name": "Munsyari 3 to Sunderdhunga Pass (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "RNK",
+      "to": "V053",
+      "distance": 184.7,
+      "traffic": 0.42,
+      "name": "Ranikhet to Chandrashila 1 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V111",
+      "to": "V156",
+      "distance": 23.9,
+      "traffic": 0.27,
+      "name": "Khatima 2 to Mana Pass 3 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "BDR",
+      "to": "V043",
+      "distance": 80.1,
+      "traffic": 0.29,
+      "name": "Badrinath to Ghansali 1 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V046",
+      "to": "V173",
+      "distance": 49.9,
+      "traffic": 0.25,
+      "name": "Sonprayag 1 to Saur 4 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V047",
+      "to": "V094",
+      "distance": 168.3,
+      "traffic": 0.39,
+      "name": "Gaurikund 1 to Kalimath 2 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V051",
+      "to": "V061",
+      "distance": 56.1,
+      "traffic": 0.51,
+      "name": "Chopta 1 to Pithoragarh 1 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V112",
+      "to": "V067",
+      "distance": 114.1,
+      "traffic": 0.57,
+      "name": "Mana Pass 2 to Khatima 1 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V009",
+      "to": "V140",
+      "distance": 162.7,
+      "traffic": 0.9,
+      "name": "Sitapur to Tungnath 3 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V064",
+      "to": "V025",
+      "distance": 81.8,
+      "traffic": 0.87,
+      "name": "Champawat 1 to Niti Pass (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V111",
+      "to": "V045",
+      "distance": 102.5,
+      "traffic": 0.18,
+      "name": "Khatima 2 to Guptkashi 1 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "HDW",
+      "to": "V159",
+      "distance": 74.8,
+      "traffic": 0.89,
+      "name": "Haldwani to Kungri Bingri Pass 3 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V113",
+      "to": "V147",
+      "distance": 137.2,
+      "traffic": 0.14,
+      "name": "Niti Pass 2 to Munsyari 3 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V102",
+      "to": "V007",
+      "distance": 85.8,
+      "traffic": 0.24,
+      "name": "Kapkot 2 to Gaurikund (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V074",
+      "to": "V111",
+      "distance": 153.7,
+      "traffic": 0.86,
+      "name": "Kafni Pass 1 to Khatima 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "TEH",
+      "to": "V065",
+      "distance": 182.1,
+      "traffic": 0.38,
+      "name": "Tehri to Tanakpur 1 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 4,
+      "speed_limit": 60
+    },
+    {
+      "from": "V064",
+      "to": "V012",
+      "distance": 72.0,
+      "traffic": 0.29,
+      "name": "Champawat 1 to Tungnath (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V005",
+      "to": "V047",
+      "distance": 78.7,
+      "traffic": 0.69,
+      "name": "Guptkashi to Gaurikund 1 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "RNK",
+      "to": "V036",
+      "distance": 162.6,
+      "traffic": 0.74,
+      "name": "Ranikhet to Valley of Flowers (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V110",
+      "to": "V080",
+      "distance": 30.8,
+      "traffic": 0.91,
+      "name": "Banbasa 2 to Valley of Flowers 1 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V032",
+      "to": "V148",
+      "distance": 129.7,
+      "traffic": 0.72,
+      "name": "Khatling Pass to Dharchula 3 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V108",
+      "to": "V148",
+      "distance": 69.2,
+      "traffic": 0.37,
+      "name": "Champawat 2 to Dharchula 3 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "SRN",
+      "to": "V079",
+      "distance": 161.6,
+      "traffic": 0.67,
+      "name": "Srinagar to Har Ki Doon Pass 1 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V160",
+      "to": "BDR",
+      "distance": 55.4,
+      "traffic": 0.6,
+      "name": "Traill's Pass 3 to Badrinath (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V050",
+      "to": "V089",
+      "distance": 110.2,
+      "traffic": 0.25,
+      "name": "Kalimath 1 to Guptkashi 2 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V030",
+      "to": "V073",
+      "distance": 80.9,
+      "traffic": 0.32,
+      "name": "Kafni Pass to Pindari Pass 1 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V098",
+      "to": "V131",
+      "distance": 146.3,
+      "traffic": 0.58,
+      "name": "Auli 2 to Ghansali 3 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V107",
+      "to": "V066",
+      "distance": 166.7,
+      "traffic": 0.19,
+      "name": "Lohaghat 2 to Banbasa 1 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V009",
+      "to": "V018",
+      "distance": 114.3,
+      "traffic": 0.59,
+      "name": "Sitapur to Dharchula (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V061",
+      "to": "V077",
+      "distance": 67.4,
+      "traffic": 0.21,
+      "name": "Pithoragarh 1 to Dayara Pass 1 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "KPT",
+      "to": "V011",
+      "distance": 96.2,
+      "traffic": 0.52,
+      "name": "Kotdwar to Chopta (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V069",
+      "to": "V144",
+      "distance": 70.7,
+      "traffic": 0.19,
+      "name": "Niti Pass 1 to Kausani 3 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V075",
+      "to": "V160",
+      "distance": 91.8,
+      "traffic": 0.37,
+      "name": "Sunderdhunga Pass 1 to Traill's Pass 3 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V113",
+      "to": "V017",
+      "distance": 128.4,
+      "traffic": 0.91,
+      "name": "Niti Pass 2 to Munsyari (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V102",
+      "to": "V090",
+      "distance": 152.3,
+      "traffic": 0.26,
+      "name": "Kapkot 2 to Sonprayag 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "KPT",
+      "to": "V002",
+      "distance": 113.2,
+      "traffic": 0.5,
+      "name": "Kotdwar to Kirtinagar (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V015",
+      "to": "V003",
+      "distance": 124.4,
+      "traffic": 0.52,
+      "name": "Gwaldam to Ghansali (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V082",
+      "to": "V165",
+      "distance": 98.3,
+      "traffic": 0.16,
+      "name": "Kedar Tal Pass 1 to Dayara Pass 3 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V086",
+      "to": "V048",
+      "distance": 117.7,
+      "traffic": 0.76,
+      "name": "Kirtinagar 2 to Phata 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V042",
+      "to": "KDR",
+      "distance": 109.0,
+      "traffic": 0.57,
+      "name": "Kirtinagar 1 to Kedarnath (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V095",
+      "to": "V165",
+      "distance": 64.9,
+      "traffic": 0.3,
+      "name": "Chopta 2 to Dayara Pass 3 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V107",
+      "to": "V173",
+      "distance": 74.2,
+      "traffic": 0.58,
+      "name": "Lohaghat 2 to Saur 4 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V113",
+      "to": "V086",
+      "distance": 158.5,
+      "traffic": 0.93,
+      "name": "Niti Pass 2 to Kirtinagar 2 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V012",
+      "to": "RUD",
+      "distance": 110.3,
+      "traffic": 0.14,
+      "name": "Tungnath to Rudrapur (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V160",
+      "to": "V138",
+      "distance": 64.0,
+      "traffic": 0.31,
+      "name": "Traill's Pass 3 to Kalimath 3 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V047",
+      "to": "V062",
+      "distance": 180.4,
+      "traffic": 0.38,
+      "name": "Gaurikund 1 to Gangolihat 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V060",
+      "to": "V139",
+      "distance": 71.4,
+      "traffic": 0.3,
+      "name": "Dharchula 1 to Chopta 3 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V155",
+      "to": "V051",
+      "distance": 189.8,
+      "traffic": 0.46,
+      "name": "Khatima 3 to Chopta 1 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 3,
+      "speed_limit": 20
+    },
+    {
+      "from": "V143",
+      "to": "V101",
+      "distance": 195.2,
+      "traffic": 0.22,
+      "name": "Gwaldam 3 to Bageshwar 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V023",
+      "to": "V011",
+      "distance": 181.2,
+      "traffic": 0.7,
+      "name": "Khatima to Chopta (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V113",
+      "to": "KDR",
+      "distance": 49.0,
+      "traffic": 0.15,
+      "name": "Niti Pass 2 to Kedarnath (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V053",
+      "to": "V060",
+      "distance": 185.9,
+      "traffic": 0.74,
+      "name": "Chandrashila 1 to Dharchula 1 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 3,
+      "speed_limit": 30
+    },
+    {
+      "from": "V035",
+      "to": "V031",
+      "distance": 73.1,
+      "traffic": 0.21,
+      "name": "Har Ki Doon Pass to Sunderdhunga Pass (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V075",
+      "to": "V121",
+      "distance": 99.9,
+      "traffic": 0.59,
+      "name": "Sunderdhunga Pass 1 to Dayara Pass 2 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V041",
+      "to": "KPT",
+      "distance": 122.6,
+      "traffic": 0.37,
+      "name": "Saur 1 to Kotdwar (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 3,
+      "speed_limit": 30
+    },
+    {
+      "from": "V127",
+      "to": "V106",
+      "distance": 137.0,
+      "traffic": 0.5,
+      "name": "Gangotri Pass 2 to Gangolihat 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V021",
+      "to": "V058",
+      "distance": 121.6,
+      "traffic": 0.4,
+      "name": "Tanakpur to Kapkot 1 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V017",
+      "to": "V102",
+      "distance": 61.4,
+      "traffic": 0.77,
+      "name": "Munsyari to Kapkot 2 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V011",
+      "to": "V040",
+      "distance": 106.4,
+      "traffic": 0.35,
+      "name": "Chopta to Maletha 1 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 4,
+      "speed_limit": 60
+    },
+    {
+      "from": "V033",
+      "to": "V028",
+      "distance": 70.7,
+      "traffic": 0.42,
+      "name": "Dayara Pass to Traill's Pass (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V168",
+      "to": "V024",
+      "distance": 143.0,
+      "traffic": 0.34,
+      "name": "Valley of Flowers 3 to Mana Pass (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V118",
+      "to": "V069",
+      "distance": 121.9,
+      "traffic": 0.11,
+      "name": "Kafni Pass 2 to Niti Pass 1 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V007",
+      "to": "V011",
+      "distance": 53.0,
+      "traffic": 0.27,
+      "name": "Gaurikund to Chopta (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V004",
+      "to": "V131",
+      "distance": 59.4,
+      "traffic": 0.33,
+      "name": "Jakholi to Ghansali 3 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "BDR",
+      "to": "V045",
+      "distance": 180.9,
+      "traffic": 0.22,
+      "name": "Badrinath to Guptkashi 1 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "DEH",
+      "to": "V171",
+      "distance": 139.5,
+      "traffic": 0.1,
+      "name": "Dehradun to Gangotri Pass 3 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V088",
+      "to": "ALM",
+      "distance": 107.2,
+      "traffic": 0.54,
+      "name": "Jakholi 2 to Almora (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V094",
+      "to": "V110",
+      "distance": 157.0,
+      "traffic": 0.24,
+      "name": "Kalimath 2 to Banbasa 2 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V137",
+      "to": "V009",
+      "distance": 167.6,
+      "traffic": 0.7,
+      "name": "Sitapur 3 to Sitapur (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 3,
+      "speed_limit": 60
+    },
+    {
+      "from": "V064",
+      "to": "V067",
+      "distance": 57.2,
+      "traffic": 0.47,
+      "name": "Champawat 1 to Khatima 1 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V104",
+      "to": "V114",
+      "distance": 58.8,
+      "traffic": 0.56,
+      "name": "Dharchula 2 to Lipulekh Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 3,
+      "speed_limit": 20
+    },
+    {
+      "from": "V140",
+      "to": "V035",
+      "distance": 139.3,
+      "traffic": 0.23,
+      "name": "Tungnath 3 to Har Ki Doon Pass (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V094",
+      "to": "DEH",
+      "distance": 26.7,
+      "traffic": 0.2,
+      "name": "Kalimath 2 to Dehradun (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V113",
+      "to": "V138",
+      "distance": 10.3,
+      "traffic": 0.9,
+      "name": "Niti Pass 2 to Kalimath 3 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V039",
+      "to": "V128",
+      "distance": 111.2,
+      "traffic": 0.54,
+      "name": "Gangotri Pass to Maletha 3 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V169",
+      "to": "V026",
+      "distance": 191.0,
+      "traffic": 0.67,
+      "name": "Hemkund Pass 3 to Lipulekh Pass (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V116",
+      "to": "RUD",
+      "distance": 183.9,
+      "traffic": 0.73,
+      "name": "Traill's Pass 2 to Rudrapur (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V053",
+      "to": "V049",
+      "distance": 124.8,
+      "traffic": 0.46,
+      "name": "Chandrashila 1 to Sitapur 1 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V110",
+      "to": "V040",
+      "distance": 107.7,
+      "traffic": 0.86,
+      "name": "Banbasa 2 to Maletha 1 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V075",
+      "to": "V041",
+      "distance": 26.8,
+      "traffic": 0.18,
+      "name": "Sunderdhunga Pass 1 to Saur 1 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "HDW",
+      "to": "V135",
+      "distance": 25.8,
+      "traffic": 0.47,
+      "name": "Haldwani to Gaurikund 3 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V065",
+      "to": "V149",
+      "distance": 146.9,
+      "traffic": 0.63,
+      "name": "Tanakpur 1 to Pithoragarh 3 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V106",
+      "to": "V035",
+      "distance": 101.9,
+      "traffic": 0.53,
+      "name": "Gangolihat 2 to Har Ki Doon Pass (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V134",
+      "to": "V020",
+      "distance": 108.5,
+      "traffic": 0.8,
+      "name": "Sonprayag 3 to Lohaghat (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V117",
+      "to": "V000",
+      "distance": 123.9,
+      "traffic": 0.25,
+      "name": "Pindari Pass 2 to Maletha (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V138",
+      "to": "V031",
+      "distance": 153.9,
+      "traffic": 0.78,
+      "name": "Kalimath 3 to Sunderdhunga Pass (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "CMP",
+      "to": "V151",
+      "distance": 59.7,
+      "traffic": 0.72,
+      "name": "Champawat to Lohaghat 3 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V154",
+      "to": "RIS",
+      "distance": 154.1,
+      "traffic": 0.85,
+      "name": "Banbasa 3 to Rishikesh (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V093",
+      "to": "V048",
+      "distance": 78.0,
+      "traffic": 0.64,
+      "name": "Sitapur 2 to Phata 1 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V095",
+      "to": "V131",
+      "distance": 17.1,
+      "traffic": 0.1,
+      "name": "Chopta 2 to Ghansali 3 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V101",
+      "to": "V159",
+      "distance": 183.8,
+      "traffic": 0.3,
+      "name": "Bageshwar 2 to Kungri Bingri Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V101",
+      "to": "V123",
+      "distance": 160.8,
+      "traffic": 0.5,
+      "name": "Bageshwar 2 to Har Ki Doon Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "BDR",
+      "to": "V167",
+      "distance": 180.8,
+      "traffic": 0.16,
+      "name": "Badrinath to Har Ki Doon Pass 3 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V039",
+      "to": "V166",
+      "distance": 191.6,
+      "traffic": 0.29,
+      "name": "Gangotri Pass to Dodital Pass 3 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "KIC",
+      "to": "V052",
+      "distance": 98.8,
+      "traffic": 0.53,
+      "name": "Kichha to Tungnath 1 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V004",
+      "to": "V009",
+      "distance": 60.4,
+      "traffic": 0.64,
+      "name": "Jakholi to Sitapur (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V052",
+      "to": "V094",
+      "distance": 138.3,
+      "traffic": 0.9,
+      "name": "Tungnath 1 to Kalimath 2 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V145",
+      "to": "V063",
+      "distance": 81.2,
+      "traffic": 0.35,
+      "name": "Bageshwar 3 to Lohaghat 1 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V013",
+      "to": "V138",
+      "distance": 130.5,
+      "traffic": 0.3,
+      "name": "Chandrashila to Kalimath 3 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V102",
+      "to": "V163",
+      "distance": 50.4,
+      "traffic": 0.71,
+      "name": "Kapkot 2 to Sunderdhunga Pass 3 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V107",
+      "to": "V108",
+      "distance": 9.1,
+      "traffic": 0.6,
+      "name": "Lohaghat 2 to Champawat 2 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V129",
+      "to": "V096",
+      "distance": 144.9,
+      "traffic": 0.39,
+      "name": "Saur 3 to Tungnath 2 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V070",
+      "to": "V168",
+      "distance": 125.9,
+      "traffic": 0.14,
+      "name": "Lipulekh Pass 1 to Valley of Flowers 3 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "RNK",
+      "to": "V100",
+      "distance": 157.0,
+      "traffic": 0.48,
+      "name": "Ranikhet to Kausani 2 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V150",
+      "to": "CMP",
+      "distance": 44.1,
+      "traffic": 0.14,
+      "name": "Gangolihat 3 to Champawat (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V113",
+      "to": "RUD",
+      "distance": 102.1,
+      "traffic": 0.43,
+      "name": "Niti Pass 2 to Rudrapur (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V072",
+      "to": "V045",
+      "distance": 132.0,
+      "traffic": 0.45,
+      "name": "Traill's Pass 1 to Guptkashi 1 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 3,
+      "speed_limit": 20
+    },
+    {
+      "from": "V062",
+      "to": "V172",
+      "distance": 87.5,
+      "traffic": 0.75,
+      "name": "Gangolihat 1 to Maletha 4 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V174",
+      "to": "V045",
+      "distance": 97.9,
+      "traffic": 0.78,
+      "name": "Kirtinagar 4 to Guptkashi 1 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V128",
+      "to": "V039",
+      "distance": 111.2,
+      "traffic": 0.48,
+      "name": "Maletha 3 to Gangotri Pass (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "KIC",
+      "to": "V114",
+      "distance": 77.8,
+      "traffic": 0.19,
+      "name": "Kichha to Lipulekh Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 3,
+      "speed_limit": 60
+    },
+    {
+      "from": "V168",
+      "to": "SRN",
+      "distance": 112.8,
+      "traffic": 0.4,
+      "name": "Valley of Flowers 3 to Srinagar (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V060",
+      "to": "V091",
+      "distance": 188.0,
+      "traffic": 0.63,
+      "name": "Dharchula 1 to Gaurikund 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V135",
+      "to": "V051",
+      "distance": 183.5,
+      "traffic": 0.75,
+      "name": "Gaurikund 3 to Chopta 1 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V034",
+      "to": "V036",
+      "distance": 162.4,
+      "traffic": 0.77,
+      "name": "Dodital Pass to Valley of Flowers (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V081",
+      "to": "V108",
+      "distance": 86.7,
+      "traffic": 0.44,
+      "name": "Hemkund Pass 1 to Champawat 2 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V155",
+      "to": "V064",
+      "distance": 146.0,
+      "traffic": 0.11,
+      "name": "Khatima 3 to Champawat 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V146",
+      "to": "V017",
+      "distance": 128.3,
+      "traffic": 0.34,
+      "name": "Kapkot 3 to Munsyari (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V045",
+      "to": "V161",
+      "distance": 162.7,
+      "traffic": 0.19,
+      "name": "Guptkashi 1 to Pindari Pass 3 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V120",
+      "to": "V089",
+      "distance": 53.6,
+      "traffic": 0.71,
+      "name": "Khatling Pass 2 to Guptkashi 2 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V130",
+      "to": "V071",
+      "distance": 109.9,
+      "traffic": 0.44,
+      "name": "Kirtinagar 3 to Kungri Bingri Pass 1 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "KPT",
+      "to": "V049",
+      "distance": 77.1,
+      "traffic": 0.94,
+      "name": "Kotdwar to Sitapur 1 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V037",
+      "to": "V160",
+      "distance": 55.5,
+      "traffic": 0.25,
+      "name": "Hemkund Pass to Traill's Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 3,
+      "speed_limit": 60
+    },
+    {
+      "from": "V019",
+      "to": "V029",
+      "distance": 107.8,
+      "traffic": 0.7,
+      "name": "Gangolihat to Pindari Pass (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V052",
+      "to": "V076",
+      "distance": 7.1,
+      "traffic": 0.69,
+      "name": "Tungnath 1 to Khatling Pass 1 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 4,
+      "speed_limit": 80
+    },
+    {
+      "from": "V023",
+      "to": "V110",
+      "distance": 92.3,
+      "traffic": 0.78,
+      "name": "Khatima to Banbasa 2 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V027",
+      "to": "V112",
+      "distance": 47.8,
+      "traffic": 0.38,
+      "name": "Kungri Bingri Pass to Mana Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 4,
+      "speed_limit": 20
+    },
+    {
+      "from": "RTH",
+      "to": "V049",
+      "distance": 106.5,
+      "traffic": 0.79,
+      "name": "Ramnagar to Sitapur 1 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V024",
+      "to": "RIS",
+      "distance": 58.8,
+      "traffic": 0.58,
+      "name": "Mana Pass to Rishikesh (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V150",
+      "to": "V074",
+      "distance": 183.2,
+      "traffic": 0.73,
+      "name": "Gangolihat 3 to Kafni Pass 1 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V161",
+      "to": "TEH",
+      "distance": 51.2,
+      "traffic": 0.41,
+      "name": "Pindari Pass 3 to Tehri (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V142",
+      "to": "V022",
+      "distance": 12.8,
+      "traffic": 0.45,
+      "name": "Auli 3 to Banbasa (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V111",
+      "to": "V101",
+      "distance": 130.0,
+      "traffic": 0.22,
+      "name": "Khatima 2 to Bageshwar 2 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V039",
+      "to": "RUD",
+      "distance": 128.7,
+      "traffic": 0.78,
+      "name": "Gangotri Pass to Rudrapur (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V044",
+      "to": "V033",
+      "distance": 181.1,
+      "traffic": 0.12,
+      "name": "Jakholi 1 to Dayara Pass (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "GPC",
+      "to": "V067",
+      "distance": 11.6,
+      "traffic": 0.92,
+      "name": "Gangotri to Khatima 1 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V149",
+      "to": "NTL",
+      "distance": 27.0,
+      "traffic": 0.26,
+      "name": "Pithoragarh 3 to Nainital (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V139",
+      "to": "SRN",
+      "distance": 122.2,
+      "traffic": 0.35,
+      "name": "Chopta 3 to Srinagar (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V058",
+      "to": "V155",
+      "distance": 93.3,
+      "traffic": 0.66,
+      "name": "Kapkot 1 to Khatima 3 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V161",
+      "to": "V036",
+      "distance": 58.1,
+      "traffic": 0.16,
+      "name": "Pindari Pass 3 to Valley of Flowers (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V053",
+      "to": "V097",
+      "distance": 42.0,
+      "traffic": 0.71,
+      "name": "Chandrashila 1 to Chandrashila 2 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V064",
+      "to": "V105",
+      "distance": 126.5,
+      "traffic": 0.64,
+      "name": "Champawat 1 to Pithoragarh 2 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V046",
+      "to": "V148",
+      "distance": 42.5,
+      "traffic": 0.63,
+      "name": "Sonprayag 1 to Dharchula 3 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "HAR",
+      "to": "V056",
+      "distance": 79.8,
+      "traffic": 0.75,
+      "name": "Haridwar to Kausani 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V041",
+      "to": "KSN",
+      "distance": 148.0,
+      "traffic": 0.74,
+      "name": "Saur 1 to Kausani (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V076",
+      "to": "V102",
+      "distance": 72.3,
+      "traffic": 0.49,
+      "name": "Khatling Pass 1 to Kapkot 2 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V126",
+      "to": "V056",
+      "distance": 89.1,
+      "traffic": 0.23,
+      "name": "Kedar Tal Pass 2 to Kausani 1 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V109",
+      "to": "V039",
+      "distance": 68.8,
+      "traffic": 0.78,
+      "name": "Tanakpur 2 to Gangotri Pass (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 4,
+      "speed_limit": 30
+    },
+    {
+      "from": "V000",
+      "to": "V164",
+      "distance": 157.4,
+      "traffic": 0.79,
+      "name": "Maletha to Khatling Pass 3 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "SRN",
+      "to": "TEH",
+      "distance": 63.8,
+      "traffic": 0.77,
+      "name": "Srinagar to Tehri (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V131",
+      "to": "V167",
+      "distance": 83.5,
+      "traffic": 0.43,
+      "name": "Ghansali 3 to Har Ki Doon Pass 3 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V081",
+      "to": "V174",
+      "distance": 7.1,
+      "traffic": 0.47,
+      "name": "Hemkund Pass 1 to Kirtinagar 4 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V029",
+      "to": "V147",
+      "distance": 99.4,
+      "traffic": 0.82,
+      "name": "Pindari Pass to Munsyari 3 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V020",
+      "to": "V003",
+      "distance": 143.0,
+      "traffic": 0.35,
+      "name": "Lohaghat to Ghansali (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V001",
+      "to": "V171",
+      "distance": 146.2,
+      "traffic": 0.15,
+      "name": "Saur to Gangotri Pass 3 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V162",
+      "to": "V105",
+      "distance": 183.9,
+      "traffic": 0.62,
+      "name": "Kafni Pass 3 to Pithoragarh 2 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V043",
+      "to": "V081",
+      "distance": 97.5,
+      "traffic": 0.75,
+      "name": "Ghansali 1 to Hemkund Pass 1 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V048",
+      "to": "V008",
+      "distance": 85.5,
+      "traffic": 0.54,
+      "name": "Phata 1 to Phata (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V103",
+      "to": "V027",
+      "distance": 158.4,
+      "traffic": 0.16,
+      "name": "Munsyari 2 to Kungri Bingri Pass (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "KSN",
+      "to": "V019",
+      "distance": 54.0,
+      "traffic": 0.45,
+      "name": "Kausani to Gangolihat (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V041",
+      "to": "V045",
+      "distance": 174.9,
+      "traffic": 0.55,
+      "name": "Saur 1 to Guptkashi 1 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V163",
+      "to": "V051",
+      "distance": 83.2,
+      "traffic": 0.84,
+      "name": "Sunderdhunga Pass 3 to Chopta 1 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V093",
+      "to": "V166",
+      "distance": 106.5,
+      "traffic": 0.64,
+      "name": "Sitapur 2 to Dodital Pass 3 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V126",
+      "to": "V167",
+      "distance": 149.5,
+      "traffic": 0.33,
+      "name": "Kedar Tal Pass 2 to Har Ki Doon Pass 3 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V157",
+      "to": "V092",
+      "distance": 113.2,
+      "traffic": 0.93,
+      "name": "Niti Pass 3 to Phata 2 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V010",
+      "to": "V153",
+      "distance": 120.7,
+      "traffic": 0.67,
+      "name": "Kalimath to Tanakpur 3 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V136",
+      "to": "ALM",
+      "distance": 88.0,
+      "traffic": 0.38,
+      "name": "Phata 3 to Almora (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "SRN",
+      "to": "V017",
+      "distance": 112.9,
+      "traffic": 0.3,
+      "name": "Srinagar to Munsyari (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V138",
+      "to": "V141",
+      "distance": 133.3,
+      "traffic": 0.46,
+      "name": "Kalimath 3 to Chandrashila 3 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 4,
+      "speed_limit": 60
+    },
+    {
+      "from": "HDW",
+      "to": "V151",
+      "distance": 74.4,
+      "traffic": 0.13,
+      "name": "Haldwani to Lohaghat 3 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V071",
+      "to": "V099",
+      "distance": 51.3,
+      "traffic": 0.11,
+      "name": "Kungri Bingri Pass 1 to Gwaldam 2 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "RNK",
+      "to": "PIT",
+      "distance": 123.2,
+      "traffic": 0.28,
+      "name": "Ranikhet to Pithoragarh (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "RTH",
+      "to": "V106",
+      "distance": 49.8,
+      "traffic": 0.45,
+      "name": "Ramnagar to Gangolihat 2 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V004",
+      "to": "V094",
+      "distance": 97.3,
+      "traffic": 0.44,
+      "name": "Jakholi to Kalimath 2 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V159",
+      "to": "V113",
+      "distance": 166.7,
+      "traffic": 0.86,
+      "name": "Kungri Bingri Pass 3 to Niti Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V074",
+      "to": "V154",
+      "distance": 150.0,
+      "traffic": 0.24,
+      "name": "Kafni Pass 1 to Banbasa 3 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V171",
+      "to": "V156",
+      "distance": 57.8,
+      "traffic": 0.54,
+      "name": "Gangotri Pass 3 to Mana Pass 3 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V074",
+      "to": "V151",
+      "distance": 177.3,
+      "traffic": 0.66,
+      "name": "Kafni Pass 1 to Lohaghat 3 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V133",
+      "to": "V031",
+      "distance": 104.6,
+      "traffic": 0.14,
+      "name": "Guptkashi 3 to Sunderdhunga Pass (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V169",
+      "to": "RTH",
+      "distance": 142.1,
+      "traffic": 0.52,
+      "name": "Hemkund Pass 3 to Ramnagar (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V169",
+      "to": "V016",
+      "distance": 85.3,
+      "traffic": 0.69,
+      "name": "Hemkund Pass 3 to Kapkot (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V113",
+      "to": "V166",
+      "distance": 116.3,
+      "traffic": 0.75,
+      "name": "Niti Pass 2 to Dodital Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V067",
+      "to": "V035",
+      "distance": 177.7,
+      "traffic": 0.43,
+      "name": "Khatima 1 to Har Ki Doon Pass (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V030",
+      "to": "V081",
+      "distance": 91.1,
+      "traffic": 0.56,
+      "name": "Kafni Pass to Hemkund Pass 1 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V043",
+      "to": "V062",
+      "distance": 52.4,
+      "traffic": 0.26,
+      "name": "Ghansali 1 to Gangolihat 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V039",
+      "to": "MUS",
+      "distance": 84.5,
+      "traffic": 0.61,
+      "name": "Gangotri Pass to Mussoorie (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "ALM",
+      "to": "V112",
+      "distance": 38.3,
+      "traffic": 0.12,
+      "name": "Almora to Mana Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V111",
+      "to": "CMP",
+      "distance": 160.3,
+      "traffic": 0.68,
+      "name": "Khatima 2 to Champawat (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V005",
+      "to": "V003",
+      "distance": 81.0,
+      "traffic": 0.47,
+      "name": "Guptkashi to Ghansali (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "HAR",
+      "to": "V055",
+      "distance": 86.6,
+      "traffic": 0.4,
+      "name": "Haridwar to Gwaldam 1 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V137",
+      "to": "V055",
+      "distance": 122.8,
+      "traffic": 0.27,
+      "name": "Sitapur 3 to Gwaldam 1 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "KPT",
+      "to": "V166",
+      "distance": 169.6,
+      "traffic": 0.42,
+      "name": "Kotdwar to Dodital Pass 3 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "SRN",
+      "to": "V097",
+      "distance": 93.8,
+      "traffic": 0.48,
+      "name": "Srinagar to Chandrashila 2 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V147",
+      "to": "V018",
+      "distance": 62.6,
+      "traffic": 0.75,
+      "name": "Munsyari 3 to Dharchula (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V087",
+      "to": "V146",
+      "distance": 84.1,
+      "traffic": 0.66,
+      "name": "Ghansali 2 to Kapkot 3 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V076",
+      "to": "KDR",
+      "distance": 163.1,
+      "traffic": 0.29,
+      "name": "Khatling Pass 1 to Kedarnath (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V028",
+      "to": "V068",
+      "distance": 106.4,
+      "traffic": 0.39,
+      "name": "Traill's Pass to Mana Pass 1 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V084",
+      "to": "V172",
+      "distance": 66.3,
+      "traffic": 0.86,
+      "name": "Maletha 2 to Maletha 4 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "HAR",
+      "to": "V030",
+      "distance": 22.7,
+      "traffic": 0.93,
+      "name": "Haridwar to Kafni Pass (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V161",
+      "to": "V174",
+      "distance": 67.8,
+      "traffic": 0.72,
+      "name": "Pindari Pass 3 to Kirtinagar 4 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V022",
+      "to": "V055",
+      "distance": 119.2,
+      "traffic": 0.37,
+      "name": "Banbasa to Gwaldam 1 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V117",
+      "to": "V118",
+      "distance": 117.8,
+      "traffic": 0.42,
+      "name": "Pindari Pass 2 to Kafni Pass 2 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "KIC",
+      "to": "V040",
+      "distance": 110.6,
+      "traffic": 0.82,
+      "name": "Kichha to Maletha 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V156",
+      "to": "V127",
+      "distance": 125.7,
+      "traffic": 0.28,
+      "name": "Mana Pass 3 to Gangotri Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V119",
+      "to": "V039",
+      "distance": 180.4,
+      "traffic": 0.87,
+      "name": "Sunderdhunga Pass 2 to Gangotri Pass (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V057",
+      "to": "V019",
+      "distance": 175.6,
+      "traffic": 0.86,
+      "name": "Bageshwar 1 to Gangolihat (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "GPC",
+      "to": "V078",
+      "distance": 123.0,
+      "traffic": 0.61,
+      "name": "Gangotri to Dodital Pass 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V073",
+      "to": "V028",
+      "distance": 38.9,
+      "traffic": 0.85,
+      "name": "Pindari Pass 1 to Traill's Pass (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V141",
+      "to": "V174",
+      "distance": 143.3,
+      "traffic": 0.4,
+      "name": "Chandrashila 3 to Kirtinagar 4 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V019",
+      "to": "V050",
+      "distance": 99.4,
+      "traffic": 0.51,
+      "name": "Gangolihat to Kalimath 1 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V167",
+      "to": "V034",
+      "distance": 164.3,
+      "traffic": 0.82,
+      "name": "Har Ki Doon Pass 3 to Dodital Pass (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V005",
+      "to": "V140",
+      "distance": 29.6,
+      "traffic": 0.16,
+      "name": "Guptkashi to Tungnath 3 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V109",
+      "to": "V032",
+      "distance": 183.8,
+      "traffic": 0.6,
+      "name": "Tanakpur 2 to Khatling Pass (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V064",
+      "to": "V010",
+      "distance": 101.4,
+      "traffic": 0.11,
+      "name": "Champawat 1 to Kalimath (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V153",
+      "to": "RNK",
+      "distance": 63.2,
+      "traffic": 0.11,
+      "name": "Tanakpur 3 to Ranikhet (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V131",
+      "to": "V126",
+      "distance": 66.4,
+      "traffic": 0.58,
+      "name": "Ghansali 3 to Kedar Tal Pass 2 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V067",
+      "to": "V172",
+      "distance": 117.4,
+      "traffic": 0.73,
+      "name": "Khatima 1 to Maletha 4 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "RNK",
+      "to": "V067",
+      "distance": 157.2,
+      "traffic": 0.62,
+      "name": "Ranikhet to Khatima 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V062",
+      "to": "V078",
+      "distance": 115.9,
+      "traffic": 0.29,
+      "name": "Gangolihat 1 to Dodital Pass 1 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 3,
+      "speed_limit": 20
+    },
+    {
+      "from": "V073",
+      "to": "V160",
+      "distance": 63.5,
+      "traffic": 0.27,
+      "name": "Pindari Pass 1 to Traill's Pass 3 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V036",
+      "to": "YMN",
+      "distance": 134.9,
+      "traffic": 0.34,
+      "name": "Valley of Flowers to Yamunotri (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "HDW",
+      "to": "V128",
+      "distance": 54.8,
+      "traffic": 0.21,
+      "name": "Haldwani to Maletha 3 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V174",
+      "to": "V066",
+      "distance": 115.8,
+      "traffic": 0.67,
+      "name": "Kirtinagar 4 to Banbasa 1 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V106",
+      "to": "V020",
+      "distance": 144.5,
+      "traffic": 0.49,
+      "name": "Gangolihat 2 to Lohaghat (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V057",
+      "to": "V056",
+      "distance": 132.3,
+      "traffic": 0.24,
+      "name": "Bageshwar 1 to Kausani 1 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "HAR",
+      "to": "V094",
+      "distance": 18.5,
+      "traffic": 0.23,
+      "name": "Haridwar to Kalimath 2 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V141",
+      "to": "V068",
+      "distance": 23.8,
+      "traffic": 0.53,
+      "name": "Chandrashila 3 to Mana Pass 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V131",
+      "to": "V062",
+      "distance": 170.2,
+      "traffic": 0.66,
+      "name": "Ghansali 3 to Gangolihat 1 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V106",
+      "to": "KDR",
+      "distance": 146.4,
+      "traffic": 0.79,
+      "name": "Gangolihat 2 to Kedarnath (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V068",
+      "to": "V130",
+      "distance": 44.8,
+      "traffic": 0.27,
+      "name": "Mana Pass 1 to Kirtinagar 3 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 3,
+      "speed_limit": 20
+    },
+    {
+      "from": "V003",
+      "to": "V156",
+      "distance": 48.8,
+      "traffic": 0.28,
+      "name": "Ghansali to Mana Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V097",
+      "to": "MUS",
+      "distance": 86.5,
+      "traffic": 0.5,
+      "name": "Chandrashila 2 to Mussoorie (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V013",
+      "to": "V103",
+      "distance": 42.0,
+      "traffic": 0.85,
+      "name": "Chandrashila to Munsyari 2 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V091",
+      "to": "V102",
+      "distance": 106.5,
+      "traffic": 0.13,
+      "name": "Gaurikund 2 to Kapkot 2 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V164",
+      "to": "V017",
+      "distance": 128.8,
+      "traffic": 0.36,
+      "name": "Khatling Pass 3 to Munsyari (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V070",
+      "to": "HAR",
+      "distance": 189.8,
+      "traffic": 0.94,
+      "name": "Lipulekh Pass 1 to Haridwar (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V065",
+      "to": "V060",
+      "distance": 188.4,
+      "traffic": 0.6,
+      "name": "Tanakpur 1 to Dharchula 1 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V061",
+      "to": "V134",
+      "distance": 140.3,
+      "traffic": 0.36,
+      "name": "Pithoragarh 1 to Sonprayag 3 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V168",
+      "to": "V125",
+      "distance": 157.5,
+      "traffic": 0.56,
+      "name": "Valley of Flowers 3 to Hemkund Pass 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V077",
+      "to": "V154",
+      "distance": 96.3,
+      "traffic": 0.75,
+      "name": "Dayara Pass 1 to Banbasa 3 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V071",
+      "to": "V023",
+      "distance": 147.7,
+      "traffic": 0.14,
+      "name": "Kungri Bingri Pass 1 to Khatima (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V109",
+      "to": "V086",
+      "distance": 170.6,
+      "traffic": 0.34,
+      "name": "Tanakpur 2 to Kirtinagar 2 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V149",
+      "to": "V021",
+      "distance": 60.4,
+      "traffic": 0.73,
+      "name": "Pithoragarh 3 to Tanakpur (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V132",
+      "to": "V134",
+      "distance": 194.8,
+      "traffic": 0.24,
+      "name": "Jakholi 3 to Sonprayag 3 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V135",
+      "to": "V140",
+      "distance": 57.3,
+      "traffic": 0.7,
+      "name": "Gaurikund 3 to Tungnath 3 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V022",
+      "to": "V037",
+      "distance": 190.5,
+      "traffic": 0.36,
+      "name": "Banbasa to Hemkund Pass (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "KPT",
+      "to": "V153",
+      "distance": 55.5,
+      "traffic": 0.5,
+      "name": "Kotdwar to Tanakpur 3 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V079",
+      "to": "V169",
+      "distance": 131.6,
+      "traffic": 0.43,
+      "name": "Har Ki Doon Pass 1 to Hemkund Pass 3 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V085",
+      "to": "V093",
+      "distance": 42.2,
+      "traffic": 0.37,
+      "name": "Saur 2 to Sitapur 2 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V018",
+      "to": "V050",
+      "distance": 114.6,
+      "traffic": 0.49,
+      "name": "Dharchula to Kalimath 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V156",
+      "to": "V065",
+      "distance": 146.7,
+      "traffic": 0.79,
+      "name": "Mana Pass 3 to Tanakpur 1 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V151",
+      "to": "V082",
+      "distance": 189.1,
+      "traffic": 0.25,
+      "name": "Lohaghat 3 to Kedar Tal Pass 1 (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V002",
+      "to": "V085",
+      "distance": 81.9,
+      "traffic": 0.44,
+      "name": "Kirtinagar to Saur 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "GPC",
+      "to": "V165",
+      "distance": 148.6,
+      "traffic": 0.45,
+      "name": "Gangotri to Dayara Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V126",
+      "to": "V031",
+      "distance": 180.7,
+      "traffic": 0.26,
+      "name": "Kedar Tal Pass 2 to Sunderdhunga Pass (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V089",
+      "to": "V117",
+      "distance": 66.2,
+      "traffic": 0.46,
+      "name": "Guptkashi 2 to Pindari Pass 2 (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V147",
+      "to": "HDW",
+      "distance": 17.9,
+      "traffic": 0.47,
+      "name": "Munsyari 3 to Haldwani (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V004",
+      "to": "V123",
+      "distance": 91.5,
+      "traffic": 0.28,
+      "name": "Jakholi to Har Ki Doon Pass 2 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V161",
+      "to": "V134",
+      "distance": 85.2,
+      "traffic": 0.67,
+      "name": "Pindari Pass 3 to Sonprayag 3 (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V082",
+      "to": "V150",
+      "distance": 198.7,
+      "traffic": 0.49,
+      "name": "Kedar Tal Pass 1 to Gangolihat 3 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V001",
+      "to": "V005",
+      "distance": 139.2,
+      "traffic": 0.26,
+      "name": "Saur to Guptkashi (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V113",
+      "to": "V038",
+      "distance": 94.1,
+      "traffic": 0.29,
+      "name": "Niti Pass 2 to Kedar Tal Pass (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V166",
+      "to": "V094",
+      "distance": 91.9,
+      "traffic": 0.61,
+      "name": "Dodital Pass 3 to Kalimath 2 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V019",
+      "to": "V101",
+      "distance": 167.2,
+      "traffic": 0.88,
+      "name": "Gangolihat to Bageshwar 2 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V174",
+      "to": "BGR",
+      "distance": 96.1,
+      "traffic": 0.13,
+      "name": "Kirtinagar 4 to Bhimtal (Rural)",
+      "type": "rural",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V066",
+      "to": "V009",
+      "distance": 191.7,
+      "traffic": 0.41,
+      "name": "Banbasa 1 to Sitapur (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V148",
+      "to": "PIT",
+      "distance": 158.7,
+      "traffic": 0.59,
+      "name": "Dharchula 3 to Pithoragarh (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V090",
+      "to": "V020",
+      "distance": 149.0,
+      "traffic": 0.34,
+      "name": "Sonprayag 2 to Lohaghat (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V139",
+      "to": "V113",
+      "distance": 124.9,
+      "traffic": 0.77,
+      "name": "Chopta 3 to Niti Pass 2 (Rural)",
+      "type": "rural",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "BGR",
+      "to": "MUS",
+      "distance": 142.9,
+      "traffic": 0.53,
+      "name": "Bhimtal to Mussoorie (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 2,
+      "speed_limit": 15
+    },
+    {
+      "from": "V004",
+      "to": "V167",
+      "distance": 24.7,
+      "traffic": 0.41,
+      "name": "Jakholi to Har Ki Doon Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "V019",
+      "to": "V000",
+      "distance": 68.6,
+      "traffic": 0.5,
+      "name": "Gangolihat to Maletha (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V122",
+      "to": "V168",
+      "distance": 97.7,
+      "traffic": 0.89,
+      "name": "Dodital Pass 2 to Valley of Flowers 3 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V137",
+      "to": "V126",
+      "distance": 91.3,
+      "traffic": 0.63,
+      "name": "Sitapur 3 to Kedar Tal Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 4,
+      "speed_limit": 40
+    },
+    {
+      "from": "V054",
+      "to": "V002",
+      "distance": 146.6,
+      "traffic": 0.62,
+      "name": "Auli 1 to Kirtinagar (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V114",
+      "to": "V048",
+      "distance": 165.1,
+      "traffic": 0.46,
+      "name": "Lipulekh Pass 2 to Phata 1 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 3,
+      "speed_limit": 60
+    },
+    {
+      "from": "V013",
+      "to": "V137",
+      "distance": 171.3,
+      "traffic": 0.18,
+      "name": "Chandrashila to Sitapur 3 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 4,
+      "speed_limit": 40
+    },
+    {
+      "from": "V029",
+      "to": "V129",
+      "distance": 75.7,
+      "traffic": 0.15,
+      "name": "Pindari Pass to Saur 3 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V075",
+      "to": "V144",
+      "distance": 99.8,
+      "traffic": 0.27,
+      "name": "Sunderdhunga Pass 1 to Kausani 3 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "NTL",
+      "to": "V058",
+      "distance": 104.8,
+      "traffic": 0.66,
+      "name": "Nainital to Kapkot 1 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V172",
+      "to": "V078",
+      "distance": 46.2,
+      "traffic": 0.36,
+      "name": "Maletha 4 to Dodital Pass 1 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V041",
+      "to": "V002",
+      "distance": 44.0,
+      "traffic": 0.47,
+      "name": "Saur 1 to Kirtinagar (Highway)",
+      "type": "highway",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V090",
+      "to": "V040",
+      "distance": 92.8,
+      "traffic": 0.71,
+      "name": "Sonprayag 2 to Maletha 1 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 60
+    },
+    {
+      "from": "V073",
+      "to": "V132",
+      "distance": 106.1,
+      "traffic": 0.82,
+      "name": "Pindari Pass 1 to Jakholi 3 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V164",
+      "to": "V028",
+      "distance": 64.3,
+      "traffic": 0.94,
+      "name": "Khatling Pass 3 to Traill's Pass (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V149",
+      "to": "V105",
+      "distance": 141.8,
+      "traffic": 0.39,
+      "name": "Pithoragarh 3 to Pithoragarh 2 (Hill)",
+      "type": "hill",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "HDW",
+      "to": "V069",
+      "distance": 143.6,
+      "traffic": 0.38,
+      "name": "Haldwani to Niti Pass 1 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V053",
+      "to": "V030",
+      "distance": 113.8,
+      "traffic": 0.26,
+      "name": "Chandrashila 1 to Kafni Pass (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 40
+    },
+    {
+      "from": "V062",
+      "to": "V122",
+      "distance": 188.2,
+      "traffic": 0.43,
+      "name": "Gangolihat 1 to Dodital Pass 2 (Highway)",
+      "type": "highway",
+      "condition": "poor",
+      "lanes": 4,
+      "speed_limit": 80
+    },
+    {
+      "from": "V149",
+      "to": "V133",
+      "distance": 93.2,
+      "traffic": 0.18,
+      "name": "Pithoragarh 3 to Guptkashi 3 (Hill)",
+      "type": "hill",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V160",
+      "to": "V018",
+      "distance": 65.6,
+      "traffic": 0.89,
+      "name": "Traill's Pass 3 to Dharchula (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V148",
+      "to": "V141",
+      "distance": 173.9,
+      "traffic": 0.63,
+      "name": "Dharchula 3 to Chandrashila 3 (Mountain)",
+      "type": "mountain",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V076",
+      "to": "ALM",
+      "distance": 77.6,
+      "traffic": 0.71,
+      "name": "Khatling Pass 1 to Almora (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V046",
+      "to": "V092",
+      "distance": 80.8,
+      "traffic": 0.35,
+      "name": "Sonprayag 1 to Phata 2 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 30
+    },
+    {
+      "from": "V165",
+      "to": "TEH",
+      "distance": 115.0,
+      "traffic": 0.86,
+      "name": "Dayara Pass 3 to Tehri (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V083",
+      "to": "V101",
+      "distance": 192.5,
+      "traffic": 0.63,
+      "name": "Gangotri Pass 1 to Bageshwar 2 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 15
+    },
+    {
+      "from": "V002",
+      "to": "V070",
+      "distance": 85.6,
+      "traffic": 0.15,
+      "name": "Kirtinagar to Lipulekh Pass 1 (Hill)",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2,
+      "speed_limit": 40
+    },
+    {
+      "from": "V096",
+      "to": "V028",
+      "distance": 131.7,
+      "traffic": 0.42,
+      "name": "Tungnath 2 to Traill's Pass (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V049",
+      "to": "V062",
+      "distance": 69.5,
+      "traffic": 0.86,
+      "name": "Sitapur 1 to Gangolihat 1 (Mountain)",
+      "type": "mountain",
+      "condition": "poor",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V113",
+      "to": "V123",
+      "distance": 47.0,
+      "traffic": 0.77,
+      "name": "Niti Pass 2 to Har Ki Doon Pass 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V011",
+      "to": "V067",
+      "distance": 157.7,
+      "traffic": 0.18,
+      "name": "Chopta to Khatima 1 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 80
+    },
+    {
+      "from": "V027",
+      "to": "BDR",
+      "distance": 113.4,
+      "traffic": 0.5,
+      "name": "Kungri Bingri Pass to Badrinath (Mountain)",
+      "type": "mountain",
+      "condition": "excellent",
+      "lanes": 2,
+      "speed_limit": 20
+    },
+    {
+      "from": "V055",
+      "to": "V121",
+      "distance": 149.9,
+      "traffic": 0.18,
+      "name": "Gwaldam 1 to Dayara Pass 2 (Mountain)",
+      "type": "mountain",
+      "condition": "fair",
+      "lanes": 1,
+      "speed_limit": 30
+    },
+    {
+      "from": "V123",
+      "to": "V153",
+      "distance": 64.2,
+      "traffic": 0.11,
+      "name": "Har Ki Doon Pass 2 to Tanakpur 3 (Highway)",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 3,
+      "speed_limit": 40
+    },
+    {
+      "from": "V061",
+      "to": "RIS",
+      "distance": 54.4,
+      "traffic": 0.84,
+      "name": "Pithoragarh 1 to Rishikesh (Rural)",
+      "type": "rural",
+      "condition": "good",
+      "lanes": 1,
+      "speed_limit": 60
+    },
+    {
+      "from": "V104",
+      "to": "V135",
+      "distance": 93.9,
+      "traffic": 0.24,
+      "name": "Dharchula 2 to Gaurikund 3 (Hill)",
+      "type": "hill",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 20
+    },
+    {
+      "from": "RIS",
+      "to": "V165",
+      "distance": 17.0,
+      "traffic": 0.58,
+      "name": "Rishikesh to Dayara Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 4,
+      "speed_limit": 20
+    },
+    {
+      "from": "V078",
+      "to": "V091",
+      "distance": 197.9,
+      "traffic": 0.6,
+      "name": "Dodital Pass 1 to Gaurikund 2 (Rural)",
+      "type": "rural",
+      "condition": "excellent",
+      "lanes": 1,
+      "speed_limit": 80
+    },
+    {
+      "from": "V013",
+      "to": "V160",
+      "distance": 176.6,
+      "traffic": 0.57,
+      "name": "Chandrashila to Traill's Pass 3 (Highway)",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 4,
+      "speed_limit": 40
+    }
+  ]
+}
