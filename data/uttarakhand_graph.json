@@ -1,0 +1,428 @@
+{
+  "intersections": {
+    "DEH": { 
+      "pos": [30.3165, 78.0322], 
+      "name": "Dehradun", 
+      "elevation": 640,
+      "division": "Garhwal",
+      "type": "capital"
+    },
+    "HAR": { 
+      "pos": [29.9457, 78.1642], 
+      "name": "Haridwar", 
+      "elevation": 314,
+      "division": "Garhwal",
+      "type": "pilgrimage"
+    },
+    "RIS": { 
+      "pos": [30.0869, 78.2676], 
+      "name": "Rishikesh", 
+      "elevation": 372,
+      "division": "Garhwal",
+      "type": "pilgrimage"
+    },
+    "MUS": { 
+      "pos": [30.4550, 78.9738], 
+      "name": "Mussoorie", 
+      "elevation": 2005,
+      "division": "Garhwal",
+      "type": "tourist"
+    },
+    "TEH": { 
+      "pos": [30.3907, 79.3237], 
+      "name": "Tehri", 
+      "elevation": 1750,
+      "division": "Garhwal",
+      "type": "town"
+    },
+    "UTK": { 
+      "pos": [30.4982, 79.6544], 
+      "name": "Uttarkashi", 
+      "elevation": 1158,
+      "division": "Garhwal",
+      "type": "pilgrimage"
+    },
+    "GPC": { 
+      "pos": [30.7268, 79.4818], 
+      "name": "Gangotri", 
+      "elevation": 3100,
+      "division": "Garhwal",
+      "type": "char_dham"
+    },
+    "KDR": { 
+      "pos": [30.7346, 79.0668], 
+      "name": "Kedarnath", 
+      "elevation": 3553,
+      "division": "Garhwal",
+      "type": "char_dham"
+    },
+    "BDR": { 
+      "pos": [30.7433, 79.4937], 
+      "name": "Badrinath", 
+      "elevation": 3300,
+      "division": "Garhwal",
+      "type": "char_dham"
+    },
+    "YMN": { 
+      "pos": [31.0145, 78.9469], 
+      "name": "Yamunotri", 
+      "elevation": 3293,
+      "division": "Garhwal",
+      "type": "char_dham"
+    },
+    "PAU": { 
+      "pos": [29.9344, 79.1145], 
+      "name": "Pauri", 
+      "elevation": 1814,
+      "division": "Garhwal",
+      "type": "town"
+    },
+    "SRN": { 
+      "pos": [30.1880, 78.7860], 
+      "name": "Srinagar", 
+      "elevation": 560,
+      "division": "Garhwal",
+      "type": "town"
+    },
+    "KPT": { 
+      "pos": [29.8543, 79.2089], 
+      "name": "Kotdwar", 
+      "elevation": 356,
+      "division": "Garhwal",
+      "type": "town"
+    },
+    "ALM": { 
+      "pos": [29.5892, 79.6502], 
+      "name": "Almora", 
+      "elevation": 1642,
+      "division": "Kumaon",
+      "type": "town"
+    },
+    "NTL": { 
+      "pos": [29.3803, 79.4636], 
+      "name": "Nainital", 
+      "elevation": 2084,
+      "division": "Kumaon",
+      "type": "tourist"
+    },
+    "RNK": { 
+      "pos": [29.3919, 79.1248], 
+      "name": "Ranikhet", 
+      "elevation": 1869,
+      "division": "Kumaon",
+      "type": "tourist"
+    },
+    "KSN": { 
+      "pos": [29.8476, 79.8646], 
+      "name": "Kausani", 
+      "elevation": 1890,
+      "division": "Kumaon",
+      "type": "tourist"
+    },
+    "BGR": { 
+      "pos": [29.3270, 79.5947], 
+      "name": "Bhimtal", 
+      "elevation": 1370,
+      "division": "Kumaon",
+      "type": "tourist"
+    },
+    "PIT": { 
+      "pos": [29.5833, 80.2181], 
+      "name": "Pithoragarh", 
+      "elevation": 1514,
+      "division": "Kumaon",
+      "type": "town"
+    },
+    "HDW": { 
+      "pos": [29.2183, 79.5130], 
+      "name": "Haldwani", 
+      "elevation": 424,
+      "division": "Kumaon",
+      "type": "city"
+    },
+    "RUD": { 
+      "pos": [29.3884, 79.0221], 
+      "name": "Rudrapur", 
+      "elevation": 225,
+      "division": "Kumaon",
+      "type": "city"
+    },
+    "KIC": { 
+      "pos": [28.8674, 79.8195], 
+      "name": "Kichha", 
+      "elevation": 235,
+      "division": "Kumaon",
+      "type": "town"
+    },
+    "CMP": { 
+      "pos": [29.3263, 79.8547], 
+      "name": "Champawat", 
+      "elevation": 1615,
+      "division": "Kumaon",
+      "type": "town"
+    },
+    "BNS": { 
+      "pos": [30.0451, 79.8296], 
+      "name": "Bageshwar", 
+      "elevation": 975,
+      "division": "Kumaon",
+      "type": "town"
+    },
+    "RTH": { 
+      "pos": [29.4892, 79.3237], 
+      "name": "Ramnagar", 
+      "elevation": 345,
+      "division": "Kumaon",
+      "type": "town"
+    }
+  },
+  "roads": [
+    {
+      "from": "DEH", "to": "MUS",
+      "distance": 35,
+      "traffic": 0.7,
+      "name": "Dehradun-Mussoorie Road",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2
+    },
+    {
+      "from": "DEH", "to": "RIS",
+      "distance": 43,
+      "traffic": 0.6,
+      "name": "NH-7",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 4
+    },
+    {
+      "from": "RIS", "to": "HAR",
+      "distance": 25,
+      "traffic": 0.8,
+      "name": "NH-7",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 4
+    },
+    {
+      "from": "RIS", "to": "SRN",
+      "distance": 105,
+      "traffic": 0.4,
+      "name": "NH-58",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2
+    },
+    {
+      "from": "SRN", "to": "PAU",
+      "distance": 30,
+      "traffic": 0.3,
+      "name": "SH-1",
+      "type": "hill",
+      "condition": "moderate",
+      "lanes": 2
+    },
+    {
+      "from": "PAU", "to": "KPT",
+      "distance": 55,
+      "traffic": 0.4,
+      "name": "SH-1",
+      "type": "hill",
+      "condition": "moderate",
+      "lanes": 2
+    },
+    {
+      "from": "SRN", "to": "TEH",
+      "distance": 75,
+      "traffic": 0.3,
+      "name": "NH-58",
+      "type": "hill",
+      "condition": "moderate",
+      "lanes": 2
+    },
+    {
+      "from": "TEH", "to": "UTK",
+      "distance": 85,
+      "traffic": 0.4,
+      "name": "NH-94",
+      "type": "hill",
+      "condition": "moderate",
+      "lanes": 2
+    },
+    {
+      "from": "UTK", "to": "GPC",
+      "distance": 100,
+      "traffic": 0.6,
+      "name": "NH-108",
+      "type": "mountain",
+      "condition": "challenging",
+      "lanes": 1
+    },
+    {
+      "from": "UTK", "to": "YMN",
+      "distance": 95,
+      "traffic": 0.5,
+      "name": "NH-94",
+      "type": "mountain",
+      "condition": "challenging",
+      "lanes": 1
+    },
+    {
+      "from": "UTK", "to": "BDR",
+      "distance": 110,
+      "traffic": 0.7,
+      "name": "NH-58",
+      "type": "mountain",
+      "condition": "challenging",
+      "lanes": 1
+    },
+    {
+      "from": "SRN", "to": "KDR",
+      "distance": 120,
+      "traffic": 0.8,
+      "name": "NH-109",
+      "type": "mountain",
+      "condition": "challenging",
+      "lanes": 1
+    },
+    {
+      "from": "HAR", "to": "KPT",
+      "distance": 105,
+      "traffic": 0.5,
+      "name": "NH-119",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2
+    },
+    {
+      "from": "KPT", "to": "RUD",
+      "distance": 150,
+      "traffic": 0.4,
+      "name": "NH-119",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2
+    },
+    {
+      "from": "RUD", "to": "HDW",
+      "distance": 30,
+      "traffic": 0.6,
+      "name": "NH-9",
+      "type": "highway",
+      "condition": "excellent",
+      "lanes": 4
+    },
+    {
+      "from": "HDW", "to": "KIC",
+      "distance": 40,
+      "traffic": 0.3,
+      "name": "SH-41",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2
+    },
+    {
+      "from": "HDW", "to": "RTH",
+      "distance": 65,
+      "traffic": 0.5,
+      "name": "NH-121",
+      "type": "highway",
+      "condition": "good",
+      "lanes": 2
+    },
+    {
+      "from": "HDW", "to": "NTL",
+      "distance": 35,
+      "traffic": 0.7,
+      "name": "NH-109",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2
+    },
+    {
+      "from": "NTL", "to": "BGR",
+      "distance": 20,
+      "traffic": 0.4,
+      "name": "Lake Road",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2
+    },
+    {
+      "from": "NTL", "to": "ALM",
+      "distance": 65,
+      "traffic": 0.5,
+      "name": "NH-109",
+      "type": "hill",
+      "condition": "good",
+      "lanes": 2
+    },
+    {
+      "from": "ALM", "to": "RNK",
+      "distance": 50,
+      "traffic": 0.3,
+      "name": "SH-37",
+      "type": "hill",
+      "condition": "moderate",
+      "lanes": 2
+    },
+    {
+      "from": "ALM", "to": "KSN",
+      "distance": 40,
+      "traffic": 0.4,
+      "name": "SH-37",
+      "type": "hill",
+      "condition": "moderate",
+      "lanes": 2
+    },
+    {
+      "from": "KSN", "to": "BNS",
+      "distance": 35,
+      "traffic": 0.3,
+      "name": "SH-37",
+      "type": "hill",
+      "condition": "moderate",
+      "lanes": 2
+    },
+    {
+      "from": "BNS", "to": "PIT",
+      "distance": 85,
+      "traffic": 0.4,
+      "name": "NH-309A",
+      "type": "hill",
+      "condition": "moderate",
+      "lanes": 2
+    },
+    {
+      "from": "PIT", "to": "CMP",
+      "distance": 75,
+      "traffic": 0.3,
+      "name": "NH-309A",
+      "type": "hill",
+      "condition": "moderate",
+      "lanes": 2
+    }
+  ],
+  "seasonal_factors": {
+    "monsoon": {
+      "affected_roads": ["UTK-GPC", "UTK-YMN", "UTK-BDR", "SRN-KDR"],
+      "risk_factor": 0.8,
+      "months": [6, 7, 8, 9]
+    },
+    "winter": {
+      "affected_roads": ["UTK-GPC", "UTK-YMN", "UTK-BDR", "SRN-KDR"],
+      "risk_factor": 0.7,
+      "months": [12, 1, 2]
+    },
+    "yatra_season": {
+      "affected_roads": ["UTK-GPC", "UTK-YMN", "UTK-BDR", "SRN-KDR", "HAR-RIS", "RIS-DEH"],
+      "traffic_increase": 0.6,
+      "months": [4, 5, 6, 7, 8, 9]
+    },
+    "tourist_season": {
+      "affected_cities": ["MUS", "NTL", "RNK", "KSN", "BGR"],
+      "traffic_increase": 0.5,
+      "months": [3, 4, 5, 6, 10, 11]
+    }
+  }
+} 
