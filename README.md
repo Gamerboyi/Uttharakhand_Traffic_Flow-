@@ -1,277 +1,280 @@
-# 🚦 Traffic Optimizer for Uttarakhand
 
-## 📑 Table of Contents
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Technical Architecture](#technical-architecture)
-4. [Installation](#installation)
-5. [Usage Guide](#usage-guide)
-6. [Algorithms](#algorithms)
-7. [Data Structure](#data-structure)
-8. [API Documentation](#api-documentation)
-9. [Contributing](#contributing)
-10. [License](#license)
 
-## 🎯 Project Overview
+# 🚦 Smart Traffic Optimizer (Uttarakhand)
 
-The Traffic Optimizer is an advanced traffic management system specifically designed for Uttarakhand's unique geographical and cultural landscape. It combines real-time traffic data, weather conditions, and historical patterns to provide optimal routing solutions while considering the region's mountainous terrain and tourism patterns.
+## 📌 About Project
 
-### Key Objectives
-- Optimize traffic flow in mountainous regions
-- Consider weather impacts on road conditions
-- Account for seasonal tourist traffic
-- Provide real-time traffic predictions
-- Offer alternative routes during peak seasons
+This is a **Smart Traffic Flow Optimization System** made for **Uttarakhand**.
+Uttarakhand has mountains, tourist rush, weather issues (rain, fog, landslides), so normal routing doesn’t always work best.
 
-## ✨ Features
-
-### 1. Route Optimization
-- **Multiple Algorithm Support**
-  - Dijkstra's Algorithm
-  - A* Algorithm
-  - Bellman-Ford Algorithm
-- **Traffic-Aware Routing**
-  - Real-time traffic consideration
-  - Weather impact integration
-  - Road condition factors
-
-### 2. Traffic Analysis
-- **Real-time Monitoring**
-  - Traffic density tracking
-  - Speed monitoring
-  - Delay calculations
-- **Predictive Analytics**
-  - 3-hour traffic predictions
-  - Weather impact forecasting
-  - Seasonal pattern analysis
-
-### 3. Network Analysis
-- **Centrality Metrics**
-  - Degree centrality
-  - Betweenness centrality
-  - Closeness centrality
-- **Network Structure Analysis**
-  - Component analysis
-  - Path length calculations
-  - Density measurements
-
-### 4. Visualization
-- **Interactive Maps**
-  - Folium-based mapping
-  - Traffic heat maps
-  - Route highlighting
-- **Data Visualization**
-  - Traffic distribution charts
-  - Network graphs
-  - Time-series predictions
-
-## 🏗️ Technical Architecture
-
-### Frontend
-- **Streamlit Framework**
-  - Interactive web interface
-  - Real-time updates
-  - Responsive design
-- **Visualization Libraries**
-  - Plotly for interactive charts
-  - Folium for map visualization
-  - Matplotlib for static graphs
-
-### Backend
-- **Core Algorithms**
-  - NetworkX for graph operations
-  - Custom traffic prediction models
-  - Weather impact calculations
-- **Data Management**
-  - JSON-based data storage
-  - Real-time data processing
-  - Caching mechanisms
-
-## 💻 Installation
-
-### Prerequisites
-- Python 3.8+
-- pip (Python package manager)
-- Git
-
-### Setup Steps
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/VIDISH-BIJALWAN/smart-traffic-optimizer.git
-cd smart-traffic-optimizer
-   ```
-
-2. Create a virtual environment:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. Install dependencies:
-   ```bash
-pip install -r requirements.txt
-   ```
-
-4. Run the application:
-   ```bash
-streamlit run app.py
-   ```
-
-## 📖 Usage Guide
-
-### Route Optimization
-1. Select starting point and destination
-2. Choose routing algorithm
-3. Enable/disable traffic consideration
-4. View optimal route with metrics
-
-### Traffic Analysis
-1. Access Traffic Predictions tab
-2. View current traffic conditions
-3. Check weather impacts
-4. Analyze traffic distribution
-
-### Network Analysis
-1. Navigate to Network Analysis tab
-2. View centrality metrics
-3. Analyze network structure
-4. Export analysis results
-
-## 🔍 Algorithms
-
-### 1. Dijkstra's Algorithm
-- **Purpose**: Find shortest path between nodes
-- **Complexity**: O((V + E) log V)
-- **Use Case**: Basic route optimization
-
-### 2. A* Algorithm
-- **Purpose**: Optimized path finding with heuristics
-- **Complexity**: O(E)
-- **Use Case**: Efficient route planning with traffic
-
-### 3. Bellman-Ford Algorithm
-- **Purpose**: Handle negative weight edges
-- **Complexity**: O(VE)
-- **Use Case**: Complex routing scenarios
-
-### 4. Traffic Prediction
-- **Model**: Time-series based prediction
-- **Features**: Weather, time, season consideration
-- **Output**: 3-hour traffic forecasts
-
-## 📊 Data Structure
-
-### Road Network
-```json
-{
-    "intersections": {
-        "node_id": {
-            "pos": [x, y],
-            "name": "City Name",
-            "type": "city_type",
-            "division": "region",
-            "elevation": height
-        }
-    },
-    "roads": [
-        {
-            "from": "node_id",
-            "to": "node_id",
-            "distance": length,
-            "traffic": level,
-            "name": "Road Name",
-            "type": "road_type",
-            "condition": "road_condition",
-            "lanes": number
-        }
-    ]
-}
-```
-
-### Traffic Data
-- Traffic levels: 0.0 to 1.0
-- Speed limits: 30-100 km/h
-- Road conditions: excellent, good, fair, poor
-- Weather impact: 0.5x to 2.0x
-
-## 🔌 API Documentation
-
-### Core Functions
-
-#### 1. Route Optimization
-```python
-def dijkstra_algorithm(G, source, destination):
-    """
-    Find shortest path using Dijkstra's algorithm
-    Args:
-        G: NetworkX graph
-        source: Starting node
-        destination: Target node
-    Returns:
-        distance: Total distance
-        path: List of nodes in path
-    """
-```
-
-#### 2. Traffic Prediction
-```python
-def get_future_traffic_predictions(hours_ahead=3):
-    """
-    Generate traffic predictions
-    Args:
-        hours_ahead: Prediction horizon
-    Returns:
-        List of (timestamp, traffic_level) tuples
-    """
-```
-
-#### 3. Weather Impact
-```python
-def apply_weather_impact(traffic, elevation, route_type):
-    """
-    Calculate weather impact on traffic
-    Args:
-        traffic: Base traffic level
-        elevation: Road elevation
-        route_type: Type of road
-    Returns:
-        Modified traffic level
-        Weather impact factor
-    """
-```
-
-## 🤝 Contributing
-
-### Development Process
-1. Fork the repository
-2. Create feature branch
-3. Commit changes
-4. Push to branch
-5. Create Pull Request
-
-### Code Standards
-- Follow PEP 8 guidelines
-- Add docstrings to functions
-- Include unit tests
-- Update documentation
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Uttarakhand Tourism Department
-- OpenStreetMap for map data
-- Weather API providers
-- Open source community
-
-## 📞 Contact
-
-For support or queries, please contact:
-- Email: vidishofficial@gmail.com
-- GitHub: Vidish-Bijalwan
+This project uses **Graph Algorithms + Traffic + Weather + Road Conditions** to give the best route and traffic analysis.
 
 ---
 
-*This documentation is maintained by the Smart Traffic Optimizer team. Last updated: 19/05/2025*
+## ✅ Features
+
+### 🔹 1. Route Finder (Shortest Path)
+
+You can find best route between two places using:
+
+* Dijkstra Algorithm
+* A* Algorithm
+* Bellman Ford Algorithm
+
+Also route changes depending on:
+
+* Traffic level
+* Weather effect
+* Road condition
+
+---
+
+### 🔹 2. Traffic Monitoring + Prediction
+
+* Shows current traffic condition
+* Calculates delay / speed
+* Gives **future traffic prediction (next 3 hours)**
+
+---
+
+### 🔹 3. Network / Graph Analysis
+
+This project also shows graph analysis like:
+
+* Degree Centrality
+* Betweenness Centrality
+* Closeness Centrality
+
+And also:
+
+* Component analysis
+* Density
+* Average path length
+
+---
+
+### 🔹 4. Visualization
+
+* Interactive map using **Folium**
+* Traffic heatmap
+* Route highlighting
+* Graph plots + charts using **Plotly / Matplotlib**
+
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+
+* Streamlit (UI)
+* Plotly (charts)
+* Folium (maps)
+* Matplotlib (graphs)
+
+### Backend
+
+* Python
+* NetworkX (graph operations)
+* Custom traffic + weather logic
+* JSON based road data
+
+---
+
+## ⚙️ Installation
+
+### Requirements
+
+* Python 3.8+
+* pip
+* Git
+
+### Steps
+
+```bash
+git clone https://github.com/Gamerboyi/Uttharakhand_Traffic_Flow-.git
+```
+
+Create venv:
+
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run app:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## 📖 How to Use
+
+### ✅ Route Optimization
+
+1. Select source and destination
+2. Choose algorithm
+3. Enable traffic / weather option
+4. It will show best route + total distance + time
+
+---
+
+### ✅ Traffic Prediction
+
+1. Open Traffic tab
+2. See current traffic
+3. Check next 3 hours prediction
+4. Weather impact also shown
+
+---
+
+### ✅ Network Analysis
+
+1. Open Network Analysis tab
+2. See centrality values
+3. See graph structure + stats
+4. Export results if needed
+
+---
+
+## 🧠 Algorithms Used
+
+### 1. Dijkstra
+
+* Finds shortest path
+* Time Complexity: **O((V + E) log V)**
+* Best for normal shortest route
+
+---
+
+### 2. A*
+
+* Faster shortest path with heuristic
+* Good for traffic-based route planning
+
+---
+
+### 3. Bellman Ford
+
+* Works even if negative weights exist
+* Complexity: **O(VE)**
+* Useful for complex scenarios
+
+---
+
+### 4. Traffic Prediction Model
+
+* Time series based prediction
+* Factors:
+
+  * time
+  * season
+  * weather
+  * tourist rush
+
+---
+
+## 📂 Data Format (JSON)
+
+### Road Network Structure
+
+```json
+{
+  "intersections": {
+    "node_id": {
+      "pos": [x, y],
+      "name": "City Name",
+      "type": "city_type",
+      "division": "region",
+      "elevation": height
+    }
+  },
+  "roads": [
+    {
+      "from": "node_id",
+      "to": "node_id",
+      "distance": length,
+      "traffic": level,
+      "name": "Road Name",
+      "type": "road_type",
+      "condition": "road_condition",
+      "lanes": number
+    }
+  ]
+}
+```
+
+---
+
+## 🔌 Main Functions (API)
+
+### Route Optimization Example
+
+```python
+def dijkstra_algorithm(G, source, destination):
+    """
+    Finds shortest path using Dijkstra
+    """
+```
+
+### Traffic Prediction
+
+```python
+def get_future_traffic_predictions(hours_ahead=3):
+    """
+    Predict traffic for next hours
+    """
+```
+
+### Weather Impact
+
+```python
+def apply_weather_impact(traffic, elevation, route_type):
+    """
+    Applies weather effect on traffic
+    """
+```
+
+---
+
+## 🤝 Contribution
+
+If you want to contribute:
+
+1. Fork repo
+2. Create branch
+3. Commit changes
+4. Push
+5. Create PR
+
+---
+
+## 📜 License
+
+This project is under **MIT License**.
+
+---
+
+## 📧 Contact
+
+For any help or query:
+
+* **Name:** Vedant Nautiyal
+* **Email:** [itsvedantnautiyal@gmail.com](mailto:itsvedantnautiyal@gmail.com)
+* **GitHub:** Gamerboyi
+
+---
+
+⭐ If you like this project, give it a star.
+
+---
+
+
